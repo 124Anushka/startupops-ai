@@ -1,16 +1,8 @@
 import "./globals.css"
-import Navbar from "./components/Navbar"
-import Footer from "./components/Footer"
 
 export const metadata = {
-  title: {
-    default: "StartupOps AI",
-    template: "%s | StartupOps AI",
-  },
+  title: "StartupOps AI",
   description: "Clarity before execution.",
-  icons: {
-    icon: "/favicon.ico",
-  },
 }
 
 export default function RootLayout({
@@ -20,14 +12,25 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-white text-black antialiased">
-        <Navbar />
-        <main className="min-h-screen">
-          {children}
-        </main>
-        <Footer />
+      <body>
+        <nav className="nav">
+          <div className="container nav-inner">
+            <div className="logo">StartupOps AI</div>
+
+            <div className="links">
+              <a href="#how">How It Works</a>
+              <a href="#pricing">Pricing</a>
+            </div>
+
+            <a className="nav-button" href="#">
+              Start Free
+            </a>
+          </div>
+        </nav>
+
+        <main>{children}</main>
       </body>
     </html>
-  )
+  );
 }
 
