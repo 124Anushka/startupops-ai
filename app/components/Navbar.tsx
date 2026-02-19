@@ -16,7 +16,7 @@ export default function Navbar() {
         </div>
 
         <a
-          href="https://chat.openai.com"
+          href="https://chatgpt.com/g/g-69620ff898308191a9da31cfffe153c3-startupops-ai"
           target="_blank"
           className="btn-primary"
         >
