@@ -1,26 +1,183 @@
-@import "tailwindcss";
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, sans-serif;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  color: #0a0a0a;
+  line-height: 1.6;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 120px 20px;
+  background:
+  linear-gradient(#fafafa,#f2f2f2),
+  repeating-linear-gradient(
+    0deg,
+    rgba(0,0,0,.03),
+    rgba(0,0,0,.03) 1px,
+    transparent 1px,
+    transparent 40px
+  ),
+  repeating-linear-gradient(
+    90deg,
+    rgba(0,0,0,.03),
+    rgba(0,0,0,.03) 1px,
+    transparent 1px,
+    transparent 40px
+  );
+}
+
+.hero h1 {
+  font-size: 60px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.hero span {
+  color: #777;
+}
+
+.hero p {
+  font-size: 20px;
+  color: #666;
+}
+
+.subline {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #999;
+}
+
+.hero-buttons {
+  margin-top: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 14px 28px;
+  margin: 10px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: .2s;
+}
+
+.primary {
+  background: #0a0a0a;
+  color: #fff;
+}
+
+.primary:hover {
+  background: #222;
+}
+
+.secondary {
+  border: 1px solid #0a0a0a;
+  color: #0a0a0a;
+  background: transparent;
+}
+
+/* DARK SECTION */
+.dark-section {
+  background: #0a0a0a;
+  color: #fff;
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.dark-section h2 {
+  font-size: 36px;
+  margin-bottom: 60px;
+}
+
+.chaos-box {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 50px;
+  border: 1px dashed #444;
+}
+
+.order-box {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 40px;
+  background: #111;
+  border: 1px solid #fff;
+}
+
+/* PRICING */
+.pricing {
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.pricing h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.pricing p {
+  color: #666;
+}
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+  gap: 30px;
+  margin-top: 60px;
+}
+
+.card {
+  border: 1px solid #e5e5e5;
+  padding: 40px;
+  text-align: left;
+}
+
+.dark-card {
+  background: #0a0a0a;
+  color: #fff;
+  border: none;
+}
+
+.price {
+  font-size: 36px;
+  font-weight: 800;
+  margin: 20px 0;
+}
+
+.card ul {
+  margin: 20px 0;
+}
+
+.card li {
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.dark-card li {
+  color: #ccc;
+}
+
+/* CTA */
+.cta {
+  text-align: center;
+  padding: 120px 20px;
+  background: #f5f5f5;
+}
+
+.cta h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+/* Responsive */
+@media(max-width:768px) {
+  .hero h1 {
+    font-size: 40px;
+  }
 }
