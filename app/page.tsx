@@ -1,166 +1,98 @@
 export default function Home() {
   return (
-    <main className="min-h-screen bg-white text-gray-900">
-
-      {/* NAVBAR */}
-      <nav className="flex justify-between items-center px-8 py-6 max-w-6xl mx-auto">
-        <div className="text-xl font-semibold">StartupOps AI</div>
-        <a href="/chat" className="text-sm font-medium hover:opacity-70">
-          Open App
-        </a>
-      </nav>
+    <main>
 
       {/* HERO */}
-      <section className="text-center px-6 py-28 max-w-4xl mx-auto">
-        <h1 className="text-5xl md:text-6xl font-bold leading-tight mb-6">
-          Clarity before execution.
+      <section className="hero">
+        <h1>
+          Clarity before <span>execution.</span>
         </h1>
-
-        <p className="text-xl text-gray-600 mb-6">
-          The boundary exists to prevent premature or incorrect execution.
+        <p>
+          For founders and operators who think before they move.
         </p>
 
-        <p className="text-gray-500 mb-10">
-          Free mode clarifies thinking. Paid plans compound execution.
-        </p>
+        <div className="subline">
+          Currently runs inside ChatGPT while we build the native app.
+        </div>
 
-        <a
-          href="/chat"
-          className="bg-black text-white px-8 py-4 rounded-xl text-lg font-medium hover:opacity-90 transition"
-        >
-          Think First
-        </a>
-      </section>
-
-      {/* PHILOSOPHY */}
-      <section className="py-24 bg-gray-50 text-center px-6">
-        <h2 className="text-3xl font-semibold mb-6">
-          Think first. Execute when ready.
-        </h2>
-
-        <p className="max-w-3xl mx-auto text-gray-600 text-lg">
-          Chaos comes from unstructured inputs. StartupOps AI acts as the filter,
-          transforming messy signals into linear, actionable directives.
-        </p>
-      </section>
-
-      {/* WHO IT’S FOR */}
-      <section className="py-28 px-6 max-w-6xl mx-auto">
-        <h2 className="text-3xl font-semibold text-center mb-16">
-          Designed for high-leverage operators.
-        </h2>
-
-        <div className="grid md:grid-cols-3 gap-10">
-
-          <div className="border p-8 rounded-2xl">
-            <h3 className="font-semibold text-lg mb-4">Startup Founder / CEO</h3>
-            <p className="text-gray-600">
-              Automates routine operational tasks, provides data-driven insights,
-              and frees founder time to focus on strategic growth.
-            </p>
-          </div>
-
-          <div className="border p-8 rounded-2xl">
-            <h3 className="font-semibold text-lg mb-4">Operations Manager</h3>
-            <p className="text-gray-600">
-              Integrated tools for process management, onboarding, vendor
-              management and scalable operations without large teams.
-            </p>
-          </div>
-
-          <div className="border p-8 rounded-2xl">
-            <h3 className="font-semibold text-lg mb-4">Head of People / HR</h3>
-            <p className="text-gray-600">
-              AI-powered assistance for policy generation, talent sourcing,
-              compliance checks and performance frameworks.
-            </p>
-          </div>
-
+        <div className="hero-buttons">
+          <a href="/chat" className="btn primary">
+            Start free in ChatGPT
+          </a>
+          <a href="#pricing" className="btn secondary">
+            See how it works
+          </a>
         </div>
       </section>
 
-      {/* SYSTEM FLOW */}
-      <section className="py-28 bg-black text-white text-center px-6">
-        <h2 className="text-3xl font-semibold mb-12">
-          Systematic Thinking
-        </h2>
 
-        <div className="space-y-4 text-lg">
-          <p>Input: Raw uncertainty & constraints</p>
-          <p>Process: Diagnosis & Framing</p>
-          <p>Output: Clear Execution Direction</p>
-        </div>
+      {/* SYSTEM SECTION */}
+      <section className="dark-section">
+        <h2>Systematic Thinking</h2>
 
-        <div className="mt-10 text-gray-400">
-          CHAOS → ORDER
-        </div>
+        <div className="chaos-box">CHAOS</div>
+        <div className="order-box">ORDER</div>
       </section>
+
 
       {/* PRICING */}
-      <section className="py-28 px-6 max-w-6xl mx-auto">
-        <h2 className="text-3xl font-semibold text-center mb-16">
-          Pricing
-        </h2>
+      <section id="pricing" className="pricing">
+        <h2>Pricing</h2>
+        <p>Payments open next week — early users get priority pricing.</p>
 
-        <div className="grid md:grid-cols-3 gap-10">
+        <div className="pricing-grid">
 
-          <div className="border p-8 rounded-2xl text-center">
-            <h3 className="text-xl font-semibold mb-4">Free</h3>
-            <p className="text-3xl font-bold mb-6">₹0</p>
-            <p className="text-gray-600 mb-6">
-              Experience the thinking style.
-            </p>
-            <a href="/chat" className="underline">
-              Start Free
+          <div className="card">
+            <h3>Free</h3>
+            <div className="price">₹0</div>
+            <p>Experience the thinking style</p>
+            <ul>
+              <li>Constraint diagnosis prompts</li>
+              <li>Structured clarity sessions</li>
+            </ul>
+            <a href="/chat" className="btn primary">
+              Try in ChatGPT
             </a>
           </div>
 
-          <div className="border-2 border-black p-8 rounded-2xl text-center">
-            <h3 className="text-xl font-semibold mb-4">Starter</h3>
-            <p className="text-3xl font-bold mb-6">₹499 / month</p>
-            <p className="text-gray-600 mb-6">
-              Context-aware reasoning & structured follow-ups.
-            </p>
-            <button className="bg-black text-white px-6 py-3 rounded-lg">
+          <div className="card dark-card">
+            <h3>Starter</h3>
+            <div className="price">₹499 / month</div>
+            <p>For solo founders & builders</p>
+            <ul>
+              <li>Context-aware reasoning</li>
+              <li>Structured follow-ups</li>
+              <li>Execution gating</li>
+            </ul>
+            <button className="btn secondary">
               Join Waitlist
             </button>
           </div>
 
-          <div className="border p-8 rounded-2xl text-center">
-            <h3 className="text-xl font-semibold mb-4">Pro</h3>
-            <p className="text-3xl font-bold mb-6">₹1999 / month</p>
-            <p className="text-gray-600 mb-6">
-              Deep analysis, trade-offs mapping & execution-grade guidance.
-            </p>
-            <button className="underline">
-              Request Access
+          <div className="card">
+            <h3>Pro</h3>
+            <div className="price">₹1999 / month</div>
+            <p>For serious operators</p>
+            <ul>
+              <li>Deep trade-off mapping</li>
+              <li>Constraint modeling</li>
+              <li>Execution-grade guidance</li>
+            </ul>
+            <button className="btn primary">
+              Request Pro Access
             </button>
           </div>
 
         </div>
       </section>
 
-      {/* FINAL CTA */}
-      <section className="py-28 text-center bg-gray-50 px-6">
-        <h2 className="text-3xl font-semibold mb-6">
-          Think clearly before you execute.
-        </h2>
 
-        <a
-          href="/chat"
-          className="bg-black text-white px-8 py-4 rounded-xl text-lg font-medium"
-        >
-          Start Free in ChatGPT
+      {/* FINAL CTA */}
+      <section className="cta">
+        <h2>Think clearly before you execute.</h2>
+        <a href="/chat" className="btn primary">
+          Start free in ChatGPT
         </a>
       </section>
 
-      {/* FOOTER */}
-      <footer className="py-12 px-6 border-t text-center text-sm text-gray-500">
-        <div className="mb-4 font-medium text-gray-900">StartupOps AI</div>
-        <p>© 2026 StartupOps AI. All rights reserved.</p>
-        <p className="mt-2">Built for deliberate execution.</p>
-      </footer>
-
     </main>
-  );
-}
