@@ -2,30 +2,38 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="container footer-grid">
+
         <div>
-          <h3>StartupOps AI</h3>
-          <p>Clarity before execution.</p>
+          <h3 className="footer-logo">StartupOps AI</h3>
+          <p className="footer-tagline">
+            Clarity before execution.
+          </p>
         </div>
 
         <div>
           <h4>Company</h4>
-          <p>About</p>
-          <p>How it works</p>
-          <p>Pricing</p>
-          <p>Contact</p>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#how">How it works</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
         </div>
 
         <div>
           <h4>Legal</h4>
-          <p>Privacy Policy</p>
-          <p>Terms & Conditions</p>
-          <p>Refund Policy</p>
-          <p>Accessibility</p>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Refund Policy</a></li>
+            <li><a href="#">Accessibility</a></li>
+          </ul>
         </div>
+
       </div>
 
-      <div className="copyright">
-        © 2026 StartupOps AI. Built for deliberate execution.
+      <div className="footer-bottom">
+        © 2026 StartupOps AI. All rights reserved. Built for deliberate execution.
       </div>
     </footer>
   )
