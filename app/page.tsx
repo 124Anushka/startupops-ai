@@ -5,30 +5,29 @@ export default function Home() {
       <section className="section">
         <div className="container">
           <h1>Clarity before execution.</h1>
-          <p>
-            For founders and operators who think before they move.
-          </p>
+
+          <p>For founders and operators who think before they move.</p>
 
           <div style={{ marginTop: 40 }}>
-            <a href="#" className="button-primary">
+            <a href="#" className="btn">
               Try StartupOps AI (Free)
             </a>
           </div>
 
-          <p style={{ marginTop: 24, fontSize: 14 }}>
-            Currently runs inside ChatGPT while we build the native app.
+          <p style={{ marginTop: 20, fontSize: 14 }}>
+            CURRENTLY RUNS INSIDE CHATGPT WHILE WE BUILD THE NATIVE APP.
           </p>
         </div>
       </section>
 
-      {/* SYSTEMATIC */}
+      {/* SYSTEMATIC THINKING */}
       <section className="section dark">
         <div className="container">
           <h2>Systematic Thinking</h2>
 
           <p>
-            Chaos comes from unstructured inputs. StartupOps AI acts as the
-            filter, transforming messy signals into linear, actionable directives.
+            Chaos comes from unstructured inputs. StartupOps AI acts as the filter,
+            transforming messy signals into linear, actionable directives.
           </p>
 
           <ul style={{ marginTop: 40, lineHeight: 2 }}>
@@ -77,7 +76,7 @@ export default function Home() {
             Free mode clarifies thinking. Paid plans compound execution.
           </p>
 
-          <p style={{ marginTop: 50, letterSpacing: 1 }}>
+          <p style={{ marginTop: 50 }}>
             THINK FIRST. EXECUTE WHEN READY.
           </p>
         </div>
