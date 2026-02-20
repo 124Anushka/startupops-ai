@@ -111,7 +111,7 @@ export default function Home() {
               <h3>Pro</h3>
               <div className="price">₹1999<span>/month</span></div>
               <p>Deep trade-off mapping and execution-grade clarity.</p>
-              <a href="#contact" className="btn-primary small-btn">Request Access</a>
+              <a href="#contact" className="btn-primary small-btn">Request Pro Access</a>
             </div>
           </div>
         </div>
