@@ -10,8 +10,8 @@ body {
   color: #111;
 }
 
-section {
-  padding: 120px 20px;
+.section {
+  padding: 120px 24px;
   max-width: 1000px;
   margin: auto;
   text-align: center;
