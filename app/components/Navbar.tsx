@@ -1,7 +1,3 @@
-"use client"
-
-import Link from "next/link"
-
 export default function Navbar() {
   return (
     <nav className="nav">
@@ -9,20 +5,16 @@ export default function Navbar() {
         <div className="logo">StartupOps AI</div>
 
         <div className="nav-links">
-          <Link href="#how">How It Works</Link>
-          <Link href="#who">Who It's For</Link>
-          <Link href="#pricing">Pricing</Link>
-          <Link href="#contact">Contact</Link>
+          <a href="#how">How it works</a>
+          <a href="#who">Who it’s for</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#contact">Contact</a>
         </div>
 
-        <a
-          href="https://chatgpt.com/g/g-69620ff898308191a9da31cfffe153c3-startupops-ai"
-          target="_blank"
-          className="btn-primary"
-        >
+        <a href="#contact" className="nav-cta">
           Start Free
         </a>
       </div>
     </nav>
-  );
+  )
 }
