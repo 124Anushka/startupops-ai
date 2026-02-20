@@ -1,146 +1,87 @@
 export default function Home() {
   return (
-    <main>
-
+    <>
       {/* HERO */}
-      <section className="hero">
-        <h1>Clarity before execution.</h1>
+      <section className="section">
+        <div className="container">
+          <h1>Clarity before execution.</h1>
+          <p>
+            For founders and operators who think before they move.
+          </p>
 
-        <p className="subtitle">
-          Most founders don’t have an execution problem.
-          They have a diagnosis problem.
-        </p>
+          <div style={{ marginTop: 40 }}>
+            <a href="#" className="button-primary">
+              Try StartupOps AI (Free)
+            </a>
+          </div>
 
-        <p className="small">
-          StartupOps AI is a structured thinking partner — currently available inside ChatGPT while we build the native platform.
-        </p>
-
-        <div className="buttons">
-          <a className="primary" href="#">
-            Start Free in ChatGPT
-          </a>
-          <a className="secondary" href="#how">
-            See How It Works
-          </a>
+          <p style={{ marginTop: 24, fontSize: 14 }}>
+            Currently runs inside ChatGPT while we build the native app.
+          </p>
         </div>
       </section>
 
+      {/* SYSTEMATIC */}
+      <section className="section dark">
+        <div className="container">
+          <h2>Systematic Thinking</h2>
 
-      {/* TENSION */}
-      <section className="dark">
-        <h2>Motion is not momentum.</h2>
+          <p>
+            Chaos comes from unstructured inputs. StartupOps AI acts as the
+            filter, transforming messy signals into linear, actionable directives.
+          </p>
 
-        <p>
-          You’re shipping features.  
-          Hiring people.  
-          Running campaigns.  
-          Talking to investors.
-        </p>
-
-        <p>
-          But something feels misaligned.
-        </p>
-
-        <p>
-          Progress feels noisy.  
-          Energy feels scattered.  
-          Decisions feel reactive.
-        </p>
-
-        <p>
-          The issue isn’t effort.  
-          It’s misdiagnosis.
-        </p>
-      </section>
-
-
-      {/* WHAT WE DO */}
-      <section>
-        <h2>We identify the real constraint.</h2>
-
-        <p className="section-intro">
-          Every business has one dominant constraint.
-          Until it’s clear, everything else is distraction.
-        </p>
-
-        <ul className="bullets">
-          <li>One clear constraint</li>
-          <li>One execution priority</li>
-          <li>One disciplined next move</li>
-        </ul>
-      </section>
-
-
-      {/* HOW IT WORKS */}
-      <section id="how" className="dark">
-        <h2>Structured thinking. Not random prompting.</h2>
-
-        <div className="steps">
-          <div>
-            <h3>1. Describe reality</h3>
-            <p>No polished pitch. No positioning spin. Just what’s actually happening.</p>
-          </div>
-
-          <div>
-            <h3>2. Diagnose the constraint</h3>
-            <p>We identify what is truly limiting progress — not what feels urgent.</p>
-          </div>
-
-          <div>
-            <h3>3. Gate execution</h3>
-            <p>No scattered effort. No parallel chaos. One direction at a time.</p>
-          </div>
+          <ul style={{ marginTop: 40, lineHeight: 2 }}>
+            <li>Input: Raw uncertainty & constraints</li>
+            <li>Process: Diagnosis & Framing</li>
+            <li>Output: Clear Execution Direction</li>
+          </ul>
         </div>
       </section>
-
 
       {/* PRICING */}
-      <section>
-        <h2>Pricing</h2>
+      <section className="section">
+        <div className="container">
+          <h2>Pricing</h2>
 
-        <div className="pricing">
+          <div className="pricing-grid">
+            <div className="pricing-card">
+              <h3>Free</h3>
+              <h1>₹0</h1>
+              <p>Try the thinking style</p>
+            </div>
 
-          <div className="card">
-            <h3>Free</h3>
-            <p className="price">₹0</p>
-            <p>Experience the thinking model</p>
-            <p>Constraint identification</p>
+            <div className="pricing-card pricing-featured">
+              <h3>Starter</h3>
+              <h1>₹499 / month</h1>
+              <p>Context-aware reasoning & structured follow-ups</p>
+            </div>
+
+            <div className="pricing-card">
+              <h3>Pro</h3>
+              <h1>₹1999 / month</h1>
+              <p>Deep analysis & execution-grade guidance</p>
+            </div>
           </div>
-
-          <div className="card featured">
-            <h3>Starter</h3>
-            <p className="price">₹499 / month</p>
-            <p>Structured follow-ups</p>
-            <p>Execution gating</p>
-            <p>Decision clarity loops</p>
-          </div>
-
-          <div className="card">
-            <h3>Pro</h3>
-            <p className="price">₹1999 / month</p>
-            <p>Deep operational diagnosis</p>
-            <p>Priority mapping</p>
-            <p>Ongoing strategic clarity</p>
-          </div>
-
         </div>
       </section>
 
+      {/* BOUNDARY */}
+      <section className="section dark" style={{ textAlign: "center" }}>
+        <div className="container">
+          <h2>
+            "The boundary exists to prevent premature or incorrect execution."
+          </h2>
 
-      {/* FINAL CTA */}
-      <section className="final">
-        <h2>Don’t move faster. Move correctly.</h2>
+          <p style={{ marginTop: 30 }}>
+            Free mode clarifies thinking. Paid plans compound execution.
+          </p>
 
-        <p className="small">
-          Clarity compounds. Chaos compounds faster.
-        </p>
-
-        <a className="primary" href="#">
-          Start Free in ChatGPT
-        </a>
+          <p style={{ marginTop: 50, letterSpacing: 1 }}>
+            THINK FIRST. EXECUTE WHEN READY.
+          </p>
+        </div>
       </section>
-
-    </main>
+    </>
   );
 }
-
