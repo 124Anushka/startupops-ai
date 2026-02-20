@@ -3,44 +3,38 @@ export default function Home() {
     <main>
 
       {/* HERO */}
-      <section className="section hero-section">
-        <div className="container hero">
-          <h1>
-            Clarity before <span>execution.</span>
-          </h1>
-
-          <p className="hero-sub">
-            For founders and operators who think before they move.
+      <section className="section hero">
+        <div className="container center">
+          <h1>Clarity before execution.</h1>
+          <p className="subtitle">
+            Structured thinking for founders and operators who refuse chaotic execution.
           </p>
 
           <div className="hero-buttons">
-            <a href="#" className="btn-primary">
-              Try StartupOps AI (Free)
+            <a href="#contact" className="btn-primary">
+              Try StartupOps AI
             </a>
             <a href="#how" className="btn-secondary">
               See how it works
             </a>
           </div>
 
-          <p className="hero-note">
+          <p className="small-text">
             Currently runs inside ChatGPT while we build the native platform.
           </p>
         </div>
       </section>
 
       {/* HOW IT WORKS */}
-      <section id="how" className="section">
-        <div className="container narrow">
-          <h2 className="section-title">
-            Operational clarity, structured.
-          </h2>
+      <section id="how" className="section alt">
+        <div className="container">
+          <h2 className="section-title center">How it works</h2>
 
-          <div className="three-col">
-
+          <div className="grid-3">
             <div className="card">
               <h3>01 — Diagnose</h3>
               <p>
-                Isolate the real constraint. Separate noise from leverage.
+                Identify the real constraint. Separate noise from leverage.
                 Most teams execute on symptoms.
               </p>
             </div>
@@ -56,94 +50,82 @@ export default function Home() {
             <div className="card">
               <h3>03 — Decide</h3>
               <p>
-                Execution happens only when impact is measurable and defensible.
+                Execution only begins when impact is measurable and defensible.
               </p>
             </div>
-
           </div>
         </div>
       </section>
 
-      {/* WHO IT'S FOR */}
-      <section id="who" className="section alt">
-        <div className="container narrow">
-          <h2 className="section-title">
-            Built for serious operators.
-          </h2>
+      {/* WHO ITS FOR */}
+      <section id="who" className="section">
+        <div className="container">
+          <h2 className="section-title center">Who it’s for</h2>
 
-          <div className="three-col">
-
+          <div className="grid-3">
             <div className="card">
               <h3>Founder / CEO</h3>
               <p>
-                Reduce chaos. Focus on strategic leverage instead of reactive execution.
+                Replace reactive chaos with strategic clarity and disciplined execution.
               </p>
             </div>
 
             <div className="card">
-              <h3>Product Leader</h3>
+              <h3>Product Leaders</h3>
               <p>
-                Clarify prioritization decisions. Make trade-offs visible and defensible.
+                Make prioritization decisions transparent, structured, and defensible.
               </p>
             </div>
 
             <div className="card">
-              <h3>Operations Manager</h3>
+              <h3>Operators</h3>
               <p>
-                Align execution with real constraints and measurable outcomes.
+                Align daily execution with measurable outcomes and real constraints.
               </p>
             </div>
-
           </div>
         </div>
       </section>
 
       {/* PRICING */}
-      <section id="pricing" className="section">
-        <div className="container narrow">
-          <h2 className="section-title">
-            Pricing
-          </h2>
+      <section id="pricing" className="section alt">
+        <div className="container">
+          <h2 className="section-title center">Pricing</h2>
 
-          <div className="pricing-grid">
-
-            <div className="price-card">
+          <div className="grid-3 pricing-grid">
+            <div className="card pricing-card">
               <h3>Free</h3>
-              <p className="price">₹0</p>
-              <p>Experience the clarity system.</p>
-              <a href="#" className="btn-primary full">
-                Start Free
-              </a>
+              <div className="price">₹0</div>
+              <p>Experience the clarity framework.</p>
+              <a href="#contact" className="btn-primary small-btn">Start Free</a>
             </div>
 
-            <div className="price-card featured">
+            <div className="card pricing-card featured">
               <h3>Starter</h3>
-              <p className="price">₹499<span>/month</span></p>
-              <p>Structured reasoning & decision frameworks.</p>
-              <a href="#" className="btn-secondary full">
-                Join Waitlist
-              </a>
+              <div className="price">₹499<span>/month</span></div>
+              <p>Structured reasoning and decision systems.</p>
+              <a href="#contact" className="btn-outline small-btn">Join Waitlist</a>
             </div>
 
-            <div className="price-card">
+            <div className="card pricing-card">
               <h3>Pro</h3>
-              <p className="price">₹1999<span>/month</span></p>
+              <div className="price">₹1999<span>/month</span></div>
               <p>Deep trade-off mapping and execution-grade clarity.</p>
-              <a href="#" className="btn-primary full">
-                Request Access
-              </a>
+              <a href="#contact" className="btn-primary small-btn">Request Access</a>
             </div>
-
           </div>
         </div>
       </section>
 
-      {/* FINAL CTA */}
-      <section className="section final-cta">
-        <div className="container narrow">
-          <h2>Think clearly before you execute.</h2>
-          <a href="#" className="btn-primary">
-            Start Free in ChatGPT
+      {/* CONTACT */}
+      <section id="contact" className="section center">
+        <div className="container">
+          <h2 className="section-title">Contact</h2>
+          <p className="subtitle">
+            For partnerships, early access, or structured strategic thinking.
+          </p>
+          <a href="mailto:hello@startupopsai.com" className="btn-primary">
+            hello@startupopsai.com
           </a>
         </div>
       </section>
