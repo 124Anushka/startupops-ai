@@ -26,36 +26,98 @@ export default function Home() {
       </section>
 
       {/* HOW IT WORKS */}
-      <section id="how" className="section alt">
-        <div className="container">
-          <h2 className="section-title center">How it works</h2>
+<section id="how" className="how-section">
 
-          <div className="grid-3">
-            <div className="card">
-              <h3>01 — Diagnose</h3>
-              <p>
-                Identify the real constraint. Separate noise from leverage.
-                Most teams execute on symptoms.
-              </p>
-            </div>
+  <div className="how-container">
 
-            <div className="card">
-              <h3>02 — Design</h3>
-              <p>
-                Evaluate trade-offs against time, capital, and operational load.
-                No fantasy roadmaps.
-              </p>
-            </div>
+    {/* LEFT SIDE */}
+    <div className="how-left">
+      <h2>
+        Operational <br /> Clarity
+      </h2>
+      <p>
+        We don’t do tasks. We fix the thinking that generates the tasks.
+        Diagnose constraints. Surface trade-offs. Decide deliberately.
+      </p>
+      <div className="how-line"></div>
+    </div>
 
-            <div className="card">
-              <h3>03 — Decide</h3>
-              <p>
-                Execution only begins when impact is measurable and defensible.
-              </p>
-            </div>
+    {/* RIGHT SIDE */}
+    <div className="how-right">
+
+      <div className="how-block">
+        <span className="step-number">01</span>
+        <h3>Problem Diagnosis Before Action</h3>
+
+        <div className="how-grid">
+          <div>
+            <span className="label">DIAGNOSIS</span>
+            <p>
+              Most teams rush into execution while solving the wrong problem.
+              Signals are noisy, opinions conflict, and symptoms get treated
+              instead of root causes.
+            </p>
+          </div>
+
+          <div>
+            <span className="label">BENEFIT</span>
+            <p>
+              StartupOps AI isolates the real constraint so effort is applied
+              only where it changes outcomes.
+            </p>
           </div>
         </div>
-      </section>
+      </div>
+
+      <div className="how-block light">
+        <span className="step-number">02</span>
+        <h3>Constraint-Aware Decision Making</h3>
+
+        <div className="how-grid">
+          <div>
+            <span className="label">DIAGNOSIS</span>
+            <p>
+              Plans fail when designed in ideal conditions, ignoring real limits
+              like time, capital, and operational load.
+            </p>
+          </div>
+
+          <div>
+            <span className="label">BENEFIT</span>
+            <p>
+              Every recommendation is evaluated against real constraints,
+              producing defensible and executable decisions.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="how-block">
+        <span className="step-number">03</span>
+        <h3>Execution Readiness & Trade-Off Clarity</h3>
+
+        <div className="how-grid">
+          <div>
+            <span className="label">DIAGNOSIS</span>
+            <p>
+              Execution too early creates waste. Too late creates drift.
+              Most teams lack a signal for when action is justified.
+            </p>
+          </div>
+
+          <div>
+            <span className="label">BENEFIT</span>
+            <p>
+              StartupOps AI clarifies timing and trade-offs so execution
+              delivers leverage — not noise.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
 
       {/* WHO ITS FOR */}
       <section id="who" className="section">
