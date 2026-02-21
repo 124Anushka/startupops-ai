@@ -225,3 +225,53 @@ body {
   font-size: 14px;
   color: #777;
 }
+
+
+/* =========================
+   HOW IT WORKS SECTION
+========================= */
+
+.how-section {
+  padding: 110px 0;
+  background: #ffffff;
+}
+
+.how-header {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.how-label {
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #888;
+  margin-bottom: 12px;
+}
+
+.how-title {
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+
+.how-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px;
+  align-items: start;
+}
+
+.how-step {
+  text-align: left;
+}
+
+.how-step h3 {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.how-step p {
+  color: #555;
+  line-height: 1.7;
+}
