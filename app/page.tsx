@@ -11,7 +11,10 @@ export default function Home() {
           </p>
 
           <div className="hero-buttons">
-            <a href="#contact" className="btn-primary">
+            <a href="https://chatgpt.com/g/g-69620ff898308191a9da31cfffe153c3-startupops-ai" className="btn-primary"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Try StartupOps AI
             </a>
             <a href="#how" className="btn-secondary">
