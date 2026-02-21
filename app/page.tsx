@@ -189,35 +189,76 @@ export default function Home() {
   </div>
 </section>
 
-      {/* PRICING */}
-      <section id="pricing" className="section alt">
-        <div className="container">
-          <h2 className="section-title center">Pricing</h2>
+      <section id="pricing" className="pricing-section">
+  <div className="pricing-header">
+    <h2>Pricing</h2>
+    <p className="pricing-sub">
+      "Payments open next week — early users get priority pricing."
+    </p>
+  </div>
 
-          <div className="grid-3 pricing-grid">
-            <div className="card pricing-card">
-              <h3>Free</h3>
-              <div className="price">₹0</div>
-              <p>Experience the clarity framework.</p>
-              <a href="#contact" className="btn-primary small-btn">Start Free</a>
-            </div>
+  <div className="pricing-grid">
 
-            <div className="card pricing-card featured">
-              <h3>Starter</h3>
-              <div className="price">₹499<span>/month</span></div>
-              <p>Structured reasoning and decision systems.</p>
-              <a href="#contact" className="btn-outline small-btn">Join Waitlist</a>
-            </div>
+    {/* FREE */}
+    <div className="pricing-card">
+      <h3>Free</h3>
+      <div className="price">
+        ₹0 <span>/ month</span>
+      </div>
 
-            <div className="card pricing-card">
-              <h3>Pro</h3>
-              <div className="price">₹1999<span>/month</span></div>
-              <p>Deep trade-off mapping and execution-grade clarity.</p>
-              <a href="#contact" className="btn-primary small-btn">Request Pro Access</a>
-            </div>
-          </div>
-        </div>
-      </section>
+      <p className="plan-tag">Try the thinking style</p>
+
+      <ul>
+        <li>Design to experience the clarity framework</li>
+      </ul>
+
+      <a href="#" className="btn-primary full-btn">
+        Try in ChatGPT
+      </a>
+    </div>
+
+    {/* STARTER */}
+    <div className="pricing-card featured">
+      <div className="popular">MOST POPULAR</div>
+
+      <h3>Starter</h3>
+      <div className="price">
+        ₹499 <span>/ month</span>
+      </div>
+
+      <p className="plan-tag">For solo founders & builders</p>
+
+      <ul>
+        <li>Context-aware reasoning</li>
+        <li>Structured follow-ups</li>
+      </ul>
+
+      <a href="#" className="btn-outline full-btn">
+        Join Waitlist
+      </a>
+    </div>
+
+    {/* PRO */}
+    <div className="pricing-card">
+      <h3>Pro</h3>
+      <div className="price">
+        ₹1999 <span>/ month</span>
+      </div>
+
+      <p className="plan-tag">For serious operators</p>
+
+      <ul>
+        <li>Deep trade-off mapping</li>
+        <li>Execution-grade clarity</li>
+      </ul>
+
+      <a href="#" className="btn-primary full-btn">
+        Request Pro Access
+      </a>
+    </div>
+
+  </div>
+</section>
 
       {/* CONTACT */}
       <section id="contact" className="section center">
