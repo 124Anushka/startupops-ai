@@ -251,7 +251,10 @@ export default function Home() {
         <li>Design to experience the clarity framework</li>
       </ul>
 
-      <a href="#" className="btn-primary full-btn">
+      <a href="https://chatgpt.com/g/g-69620ff898308191a9da31cfffe153c3-startupops-ai" className="btn-primary full-btn"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         Try in ChatGPT
       </a>
     </div>
