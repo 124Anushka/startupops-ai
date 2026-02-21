@@ -819,3 +819,78 @@ hr {
 .back-link:hover {
   text-decoration: underline;
 }
+
+
+
+.legal-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  line-height: 1.8;
+  color: #1a1a1a;
+}
+
+/* Headings */
+.legal-container h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.legal-container h2 {
+  font-size: 24px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.legal-container h3 {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+/* Paragraph spacing */
+.legal-container p {
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+
+/* List spacing */
+.legal-container ul {
+  margin: 16px 0;
+  padding-left: 20px;
+}
+
+.legal-container li {
+  margin-bottom: 10px;
+}
+
+/* Back link */
+.back-link {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #555;
+  text-decoration: none;
+}
+
+/* Divider */
+hr {
+  margin: 40px 0;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+/* Footer */
+.legal-footer {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 14px;
+  color: #666;
+}
+
+.footer-links a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #666;
+}
