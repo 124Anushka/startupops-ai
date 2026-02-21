@@ -25,28 +25,25 @@ export default function Home() {
         </div>
       </section>
 
-      {/* HOW IT WORKS */}
-<section id="how" className="how-section">
-
+      <section id="how" className="how-section">
   <div className="how-container">
 
     {/* LEFT SIDE */}
     <div className="how-left">
-      <h2>
-        Operational <br /> Clarity
-      </h2>
+      <h2>Operational<br />Clarity</h2>
       <p>
         We don’t do tasks. We fix the thinking that generates the tasks.
         Diagnose constraints. Surface trade-offs. Decide deliberately.
       </p>
-      <div className="how-line"></div>
+      <div className="line"></div>
     </div>
 
     {/* RIGHT SIDE */}
     <div className="how-right">
 
+      {/* 01 */}
       <div className="how-block">
-        <span className="step-number">01</span>
+        <span className="how-number">01</span>
         <h3>Problem Diagnosis Before Action</h3>
 
         <div className="how-grid">
@@ -54,7 +51,7 @@ export default function Home() {
             <span className="label">DIAGNOSIS</span>
             <p>
               Most teams rush into execution while solving the wrong problem.
-              Signals are noisy, opinions conflict, and symptoms get treated
+              Signals are noisy, opinions conflict, and surface symptoms get treated
               instead of root causes.
             </p>
           </div>
@@ -62,54 +59,57 @@ export default function Home() {
           <div>
             <span className="label">BENEFIT</span>
             <p>
-              StartupOps AI isolates the real constraint so effort is applied
-              only where it changes outcomes.
+              StartupOps AI isolates the true constraint behind the situation,
+              ensuring effort is applied only where it actually changes outcomes.
             </p>
           </div>
         </div>
       </div>
 
-      <div className="how-block light">
-        <span className="step-number">02</span>
+      {/* 02 */}
+      <div className="how-block">
+        <span className="how-number">02</span>
         <h3>Constraint-Aware Decision Making</h3>
 
         <div className="how-grid">
           <div>
             <span className="label">DIAGNOSIS</span>
             <p>
-              Plans fail when designed in ideal conditions, ignoring real limits
-              like time, capital, and operational load.
+              Plans often fail because they’re designed in ideal conditions,
+              ignoring real limitations like time, capital, people,
+              and operational load.
             </p>
           </div>
 
           <div>
             <span className="label">BENEFIT</span>
             <p>
-              Every recommendation is evaluated against real constraints,
-              producing defensible and executable decisions.
+              Every recommendation is evaluated against your actual constraints,
+              producing decisions that are realistic, defensible, and executable.
             </p>
           </div>
         </div>
       </div>
 
+      {/* 03 */}
       <div className="how-block">
-        <span className="step-number">03</span>
+        <span className="how-number">03</span>
         <h3>Execution Readiness & Trade-Off Clarity</h3>
 
         <div className="how-grid">
           <div>
             <span className="label">DIAGNOSIS</span>
             <p>
-              Execution too early creates waste. Too late creates drift.
-              Most teams lack a signal for when action is justified.
+              Execution too early creates waste; execution too late creates drift.
+              Most teams lack a clear signal for when action is justified.
             </p>
           </div>
 
           <div>
             <span className="label">BENEFIT</span>
             <p>
-              StartupOps AI clarifies timing and trade-offs so execution
-              delivers leverage — not noise.
+              StartupOps AI clarifies trade-offs, priorities, and timing so execution
+              happens only when it delivers leverage — not noise.
             </p>
           </div>
         </div>
