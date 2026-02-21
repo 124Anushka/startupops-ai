@@ -745,80 +745,77 @@ hr {
   border-top: 1px solid #eee;
 }
 
+
+
+
+
 /* Main container */
-.refund-container {
+.legal-container {
   max-width: 800px;
   margin: 0 auto;
   padding: 60px 20px;
-  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.7;
   color: #1a1a1a;
 }
 
-/* Back link */
-.back-link {
-  font-size: 14px;
-  color: #666;
-  margin-bottom: 20px;
-  display: block;
-}
-
 /* Title */
-.refund-title {
+.legal-container h1 {
   font-size: 42px;
   font-weight: 700;
   margin-bottom: 10px;
 }
 
-/* Date */
-.refund-date {
-  color: #777;
+/* Last updated text */
+.legal-container .last-updated {
+  color: #666;
+  font-size: 14px;
   margin-bottom: 30px;
 }
 
-/* Paragraphs */
-.refund-container p {
-  font-size: 16px;
-  line-height: 1.7;
-  margin-bottom: 20px;
-}
-
 /* Section headings */
-.refund-container h2 {
-  font-size: 24px;
-  font-weight: 600;
+.legal-container h2 {
+  font-size: 22px;
   margin-top: 40px;
   margin-bottom: 10px;
+  font-weight: 600;
 }
 
-/* Sub headings */
-.refund-container h3 {
-  font-size: 18px;
-  font-weight: 600;
-  margin-top: 20px;
-  margin-bottom: 5px;
+/* Paragraphs */
+.legal-container p {
+  margin-bottom: 15px;
+  font-size: 16px;
 }
 
 /* Lists */
-.refund-container ul {
-  padding-left: 20px;
+.legal-container ul {
+  margin-left: 20px;
   margin-bottom: 20px;
 }
 
-.refund-container li {
+.legal-container li {
   margin-bottom: 8px;
-  line-height: 1.6;
+}
+
+/* Contact section */
+.legal-container .contact {
+  margin-top: 40px;
 }
 
 /* Divider line */
-.refund-divider {
+.legal-container hr {
   margin: 40px 0;
   border: none;
   border-top: 1px solid #ddd;
 }
 
-/* Footer */
-.refund-footer {
-  font-size: 14px;
-  color: #777;
-  margin-top: 40px;
+/* Back button */
+.back-link {
+  display: inline-block;
+  margin-bottom: 30px;
+  color: #555;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  text-decoration: underline;
 }
