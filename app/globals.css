@@ -93,7 +93,7 @@ body {
   margin-top: 40px;
 }
 @media (max-width: 768px) {
-  .pricing-grid:{
+  .pricing-grid {
     flex-direction: column;
   }
 }
