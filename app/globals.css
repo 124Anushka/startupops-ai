@@ -92,6 +92,11 @@ body {
   gap: 20px;
   margin-top: 40px;
 }
+@media (max-width: 768px){
+  .pricing-grid:{
+    flex-direction: column;
+  }
+}
 
 .pricing-card {
   flex: 1;
