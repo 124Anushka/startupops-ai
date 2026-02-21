@@ -309,7 +309,7 @@ export default function Home() {
 
     <h2>Think clearly before you execute.</h2>
 
-    <a href="#" className="cta-button">
+    <a href="https://chatgpt.com/g/g-69620ff898308191a9da31cfffe153c3-startupops-ai" className="cta-button">
       Start free in ChatGPT
     </a>
 
