@@ -607,3 +607,74 @@ body {
 .cta-button:hover {
   background: #000;
 }
+
+
+
+/* PRIVACY POLICY */
+
+.privacy-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 100px 20px;
+  line-height: 1.8;
+  color: #222;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 30px;
+  color: #666;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+/* Headings */
+.privacy-container h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.last-updated {
+  color: #777;
+  margin-bottom: 30px;
+}
+
+.privacy-container h2 {
+  font-size: 26px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+.privacy-container h3 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Text */
+.privacy-container p {
+  margin-bottom: 16px;
+  color: #555;
+}
+
+/* Lists */
+.privacy-container ul {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.privacy-container li {
+  margin-bottom: 10px;
+}
+
+/* Divider */
+.privacy-container hr {
+  margin: 50px 0;
+  border: none;
+  border-top: 1px solid #eee;
+}
