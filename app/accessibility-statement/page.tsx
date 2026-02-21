@@ -63,16 +63,6 @@ export default function AccessibilityStatement() {
         We will acknowledge your report within two (2) business days and work with you to resolve any accessibility issues.
       </p>
 
-      <footer className="legal-footer">
-        <p>© 2026 StartupOps AI. All rights reserved.</p>
-        <div className="footer-links">
-          <a href="/privacy-policy">Privacy</a>
-          <a href="/terms-and-conditions">Terms</a>
-          <a href="/refund-policy">Refunds</a>
-          <a href="/accessibility-statement">Accessibility</a>
-        </div>
-      </footer>
-
     </div>
   );
 }
