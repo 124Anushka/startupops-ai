@@ -371,3 +371,111 @@ body {
   font-style: italic;
   line-height: 1.6;
 }
+
+
+
+/* PRICING SECTION */
+
+.pricing-section {
+  padding: 140px 0;
+}
+
+.pricing-header {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.pricing-header h2 {
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+
+.pricing-sub {
+  font-size: 20px;
+  color: #555;
+}
+
+.pricing-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+}
+
+.pricing-card {
+  border: 1px solid #eee;
+  padding: 60px 40px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pricing-card h3 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.price {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.price span {
+  font-size: 16px;
+  color: #666;
+}
+
+.plan-tag {
+  margin-bottom: 30px;
+  color: #444;
+}
+
+.pricing-card ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+.pricing-card ul li {
+  margin-bottom: 15px;
+}
+
+.full-btn {
+  display: block;
+  text-align: center;
+  margin-top: auto;
+  padding: 14px 0;
+}
+
+/* FEATURED PLAN */
+
+.featured {
+  background: #000;
+  color: #fff;
+  position: relative;
+}
+
+.featured .price span {
+  color: #ccc;
+}
+
+.featured ul li {
+  color: #eee;
+}
+
+.popular {
+  position: absolute;
+  top: -14px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+  color: #000;
+  font-size: 12px;
+  padding: 6px 14px;
+  border: 1px solid #000;
+  letter-spacing: 1px;
+}
