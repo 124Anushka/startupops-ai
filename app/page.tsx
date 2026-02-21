@@ -189,6 +189,42 @@ export default function Home() {
   </div>
 </section>
 
+
+<section className="system-section">
+  <div className="system-container">
+
+    {/* LEFT SIDE */}
+    <div className="system-left">
+      <h2>Systematic<br />Thinking</h2>
+
+      <p className="system-description">
+        Chaos comes from unstructured inputs. StartupOps AI acts
+        as the filter, transforming messy signals into linear,
+        actionable directives.
+      </p>
+
+      <ul className="system-list">
+        <li><strong>Input:</strong> Raw uncertainty & constraints</li>
+        <li><strong>Process:</strong> Diagnosis & Framing</li>
+        <li><strong>Output:</strong> Clear Execution Direction</li>
+      </ul>
+    </div>
+
+    {/* RIGHT SIDE */}
+    <div className="system-right">
+      <div className="chaos-box">CHAOS</div>
+
+      <div className="connector">
+        <div className="circle"></div>
+      </div>
+
+      <div className="order-box">ORDER</div>
+    </div>
+
+  </div>
+</section>
+      
+
       <section id="pricing" className="pricing-section">
   <div className="pricing-header">
     <h2>Pricing</h2>
