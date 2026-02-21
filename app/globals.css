@@ -11,6 +11,7 @@ body {
   color: #1a1a1a;
   line-height: 1.6;
   overflow-x: hidden;
+  background: #fff;
 }
 
 /* CONTAINER */
@@ -25,12 +26,24 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 20px 40px;
+  border-bottom: 1px solid #eee;
+  background: white;
 }
 
-.nav-links {
-  display: flex;
-  gap: 20px;
+.logo{
+  font-weight: bold;
+  font-size: 18px;
+}
+  
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.nav-links a:hover{
+  color: black;
 }
 
 /* HERO */
@@ -74,7 +87,7 @@ body {
 }
 
 /* PRICING */
-.pricing-container {
+.pricing-grid {
   display: flex;
   gap: 20px;
   margin-top: 40px;
