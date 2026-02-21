@@ -119,35 +119,75 @@ export default function Home() {
   </div>
 </section>
 
-      {/* WHO ITS FOR */}
-      <section id="who" className="section">
-        <div className="container">
-          <h2 className="section-title center">Who it’s for</h2>
+      <section id="who" className="who-section">
+  <div className="who-header">
+    <h2>Who it’s for</h2>
+    <p className="who-tagline">
+      Designed for high-leverage operators.
+    </p>
+  </div>
 
-          <div className="grid-3">
-            <div className="card">
-              <h3>Founder / CEO</h3>
-              <p>
-                Replace reactive chaos with strategic clarity and disciplined execution.
-              </p>
-            </div>
+  <div className="who-divider"></div>
 
-            <div className="card">
-              <h3>Product Leaders</h3>
-              <p>
-                Make prioritization decisions transparent, structured, and defensible.
-              </p>
-            </div>
+  <div className="who-grid">
 
-            <div className="card">
-              <h3>Operators</h3>
-              <p>
-                Align daily execution with measurable outcomes and real constraints.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+    {/* COLUMN 1 */}
+    <div className="who-card">
+      <h3>Startup Founder / CEO</h3>
+      <div className="mini-line"></div>
+
+      <p className="who-main">
+        Overwhelmed by operational noise, constant decisions,
+        and lack of strategic focus.
+      </p>
+
+      <div className="card-divider"></div>
+
+      <p className="who-sub">
+        “StartupOps AI isolates the real constraint behind your growth
+        bottlenecks, ensuring decisions are deliberate and leverage-driven
+        — not reactive.”
+      </p>
+    </div>
+
+    {/* COLUMN 2 */}
+    <div className="who-card">
+      <h3>Product Manager / Product Lead</h3>
+      <div className="mini-line"></div>
+
+      <p className="who-main">
+        Struggling with prioritization pressure,
+        stakeholder noise, and unclear trade-offs.
+      </p>
+
+      <div className="card-divider"></div>
+
+      <p className="who-sub">
+        “StartupOps AI structures decisions against real constraints,
+        making every roadmap choice defensible and executable.”
+      </p>
+    </div>
+
+    {/* COLUMN 3 */}
+    <div className="who-card">
+      <h3>Solo Operator / Early-Stage Builder</h3>
+      <div className="mini-line"></div>
+
+      <p className="who-main">
+        Doing everything at once with limited
+        time, capital, and operational clarity.
+      </p>
+
+      <div className="card-divider"></div>
+
+      <p className="who-sub">
+        “StartupOps AI eliminates chaotic motion and clarifies
+        what actually deserves execution.”
+      </p>
+    </div>
+
+  </div>
+</section>
 
       {/* PRICING */}
       <section id="pricing" className="section alt">
