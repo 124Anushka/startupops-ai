@@ -479,3 +479,93 @@ body {
   border: 1px solid #000;
   letter-spacing: 1px;
 }
+
+
+
+
+/* SYSTEMATIC THINKING SECTION */
+
+.system-section {
+  background: #000;
+  color: #fff;
+  padding: 140px 0;
+}
+
+.system-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  align-items: center;
+}
+
+.system-left h2 {
+  font-size: 64px;
+  line-height: 1.1;
+  margin-bottom: 30px;
+}
+
+.system-description {
+  font-size: 18px;
+  color: #ccc;
+  margin-bottom: 40px;
+  max-width: 520px;
+}
+
+.system-list {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.system-list li {
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #ddd;
+}
+
+/* RIGHT VISUAL */
+
+.system-right {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chaos-box,
+.order-box {
+  width: 100%;
+  max-width: 420px;
+  padding: 60px;
+  border: 1px solid #444;
+  text-align: center;
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+
+.order-box {
+  margin-top: 100px;
+  background: #111;
+}
+
+.connector {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 120px;
+  width: 1px;
+  background: #444;
+}
+
+.circle {
+  position: absolute;
+  top: 50%;
+  left: -7px;
+  transform: translateY(-50%);
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #fff;
+}
