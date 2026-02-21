@@ -1,7 +1,11 @@
 export default function Navbar() {
   return (
     <nav className="navbar">
-      <div className="logo"> StartupOps AI</div>
+      <div className="container">
+
+        <a href="/" className="logo">
+          StartupOps AI
+        </a>
 
         <div className="nav-links">
           <a href="#how">How it works</a>
@@ -10,9 +14,12 @@ export default function Navbar() {
           <a href="#contact">Contact</a>
         </div>
 
-        <a href="https://chatgpt.com/g/g-69620ff898308191a9da31cfffe153c3-startupops-ai" className="btn-primary"
+        <a
+          href="https://chatgpt.com/g/g-69620ff898308191a9da31cfffe153c3-startupops-ai"
+          className="btn-primary"
           target="_blank"
-          >
+          rel="noopener noreferrer"
+        >
           Start Free
         </a>
 
