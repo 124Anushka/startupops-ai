@@ -211,10 +211,10 @@ export default function Home() {
       </section>
 
       {/* PRICING */}
-      <section className="pricing-section section">
-        <div className="container">
-
-          <h2 className="section-title">Pricing</h2>
+      <div className="pricing-header">
+      <h2 className="section-title">Pricing</h2>
+        <div className="section-line"></div>
+        
           <p className="section-sub">"Payments open next week. Early users get priority pricing."</p>
 
           <div className="pricing-grid">
