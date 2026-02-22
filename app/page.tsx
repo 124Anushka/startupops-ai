@@ -32,89 +32,84 @@ export default function Home() {
         </div>
       </section>
 
-      {/* HOW */}
-      <section id="how" className="section">
-        <div className="container how-layout">
+     {/* 01 */}
+<div className="how-block">
+  <span className="how-number">01</span>
+  <h3>Problem Diagnosis Before Action</h3>
 
-          {/* LEFT */}
-          <div className="how-left">
-            <h2>Operational Clarity</h2>
-            <p>
-              We don’t do tasks. We fix the thinking that generates the tasks.
-              Diagnose constraints. Surface trade-offs. Decide deliberately.
-            </p>
-          </div>
+  <div className="how-grid">
+    <div>
+      <span className="label">DIAGNOSIS</span>
+      <p>
+        Most teams execute fast but think shallow. They react to visible problems,
+        not underlying constraints. Signals are noisy, opinions conflict,
+        and effort gets spent on the wrong layer of the system.
+      </p>
+    </div>
 
-          {/* RIGHT */}
-          <div className="how-right">
+    <div>
+      <span className="label">BENEFIT</span>
+      <p>
+        StartupOps AI forces clarity before motion. It isolates the real constraint
+        behind the situation, ensuring every action targets what actually moves outcomes.
+      </p>
+    </div>
+  </div>
+</div>
 
-            {/* BLOCK */}
-            <div className="how-block">
-              <span>01</span>
-              <h3>Problem Diagnosis Before Action</h3>
 
-              <div className="how-grid">
-                <div>
-                  <strong>DIAGNOSIS</strong>
-                  <p>
-                    Most teams rush into execution while solving the wrong problem.
-                  </p>
-                </div>
+{/* 02 */}
+<div className="how-block">
+  <span className="how-number">02</span>
+  <h3>Constraint-Aware Decision Making</h3>
 
-                <div>
-                  <strong>BENEFIT</strong>
-                  <p>
-                    Effort is applied only where it actually changes outcomes.
-                  </p>
-                </div>
-              </div>
-            </div>
+  <div className="how-grid">
+    <div>
+      <span className="label">DIAGNOSIS</span>
+      <p>
+        Most plans assume ideal conditions. In reality, time is limited,
+        capital is constrained, and teams operate under pressure.
+        This gap creates fragile strategies that fail under execution.
+      </p>
+    </div>
 
-            <div className="how-block">
-              <span>02</span>
-              <h3>Constraint-Aware Decision Making</h3>
+    <div>
+      <span className="label">BENEFIT</span>
+      <p>
+        Every recommendation is grounded in your actual constraints.
+        Decisions become realistic, defensible, and executable —
+        not optimistic guesses.
+      </p>
+    </div>
+  </div>
+</div>
 
-              <div className="how-grid">
-                <div>
-                  <strong>DIAGNOSIS</strong>
-                  <p>
-                    Plans ignore real limitations like time, capital, and team.
-                  </p>
-                </div>
 
-                <div>
-                  <strong>BENEFIT</strong>
-                  <p>
-                    Decisions become realistic, defensible, and executable.
-                  </p>
-                </div>
-              </div>
-            </div>
+{/* 03 */}
+<div className="how-block">
+  <span className="how-number">03</span>
+  <h3>Execution Readiness & Trade-Off Clarity</h3>
 
-            <div className="how-block">
-              <span>03</span>
-              <h3>Execution Readiness & Trade-Off Clarity</h3>
+  <div className="how-grid">
+    <div>
+      <span className="label">DIAGNOSIS</span>
+      <p>
+        Teams either execute too early and waste resources,
+        or delay too long and lose momentum. There is no clear signal
+        for when action is justified.
+      </p>
+    </div>
 
-              <div className="how-grid">
-                <div>
-                  <strong>DIAGNOSIS</strong>
-                  <p>
-                    Teams lack a clear signal for when execution is justified.
-                  </p>
-                </div>
-
-                <div>
-                  <strong>BENEFIT</strong>
-                  <p>
-                    Execution happens only when it delivers leverage — not noise.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </section>
+    <div>
+      <span className="label">BENEFIT</span>
+      <p>
+        StartupOps AI clarifies priorities, trade-offs, and timing.
+        Execution happens only when it delivers leverage —
+        not noise, not urgency, not pressure.
+      </p>
+    </div>
+  </div>
+</div>
 
       {/* WHO */}
       <section className="section">
