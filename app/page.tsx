@@ -36,6 +36,8 @@ export default function Home() {
       <section className="how-section">
         <div className="container">
 
+          <h2 className="section-title">How it works</h2>
+
           {/* 01 */}
           <div className="how-block">
             <span className="how-number">01</span>
@@ -119,6 +121,8 @@ export default function Home() {
       {/* WHO IT’S FOR */}
       <section className="who-section">
         <div className="container">
+
+          <h2 className="section-title">Who it's for</h2>
 
           <div className="who-grid">
 
@@ -209,6 +213,8 @@ export default function Home() {
       {/* PRICING */}
       <section className="pricing-section">
         <div className="container">
+
+          <h2 className="section-title">Pricing</h2>
 
           <div className="pricing-grid">
 
