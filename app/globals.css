@@ -64,7 +64,13 @@ h2 {
   background: #111;
   margin: 12px auto 0;
 }
-
+.section-sub{
+  text-align: center;
+  color: #666;
+  font-size: 16px;
+  margin-top: -20px;
+  margin-bottom: 50px;
+}
 h3 {
   font-size: 20px;
 }
