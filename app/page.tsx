@@ -163,29 +163,33 @@ export default function Home() {
   </p>
 </div>
 
-      {/* SYSTEM */}
-      <section className="section">
-        <div className="container system">
+     <section className="system-section">
+  <div className="system-container">
 
-          <div>
-            <h2>Systematic Thinking</h2>
-            <p>
-              Transform messy signals into clear execution direction.
-            </p>
+    {/* LEFT */}
+    <div className="system-left">
+      <h2>Systematic Thinking</h2>
 
-            <ul>
-              <li><strong>Input:</strong> Raw uncertainty</li>
-              <li><strong>Process:</strong> Diagnosis</li>
-              <li><strong>Output:</strong> Clear execution</li>
-            </ul>
-          </div>
+      <p className="system-description">
+        Transform messy signals into clear execution direction.
+      </p>
 
-          <div className="system-box">
-            <div>CHAOS → ORDER</div>
-          </div>
+      <ul className="system-list">
+        <li><strong>Input:</strong> Raw uncertainty</li>
+        <li><strong>Process:</strong> Diagnosis</li>
+        <li><strong>Output:</strong> Clear execution</li>
+      </ul>
+    </div>
 
-        </div>
-      </section>
+    {/* RIGHT */}
+    <div className="system-right">
+      <div className="system-box">
+        CHAOS → ORDER
+      </div>
+    </div>
+
+  </div>
+</section>
 
       {/* PRICING */}
 
