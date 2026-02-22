@@ -211,6 +211,11 @@ export default function Home() {
       </section>
 
       {/* PRICING */}
+     <section className="section">
+       <div className="container"
+         <div className="pricing-header">
+
+      
       <div className="pricing-header">
       <h2 className="section-title">Pricing</h2>
         <div className="section-line"></div>
@@ -282,8 +287,9 @@ export default function Home() {
 
           </div>
 
-        </div>
-      </section>
+      </div>
+    </div>
+  </section>    
 
       {/* CTA */}
       <section className="cta-section section">
