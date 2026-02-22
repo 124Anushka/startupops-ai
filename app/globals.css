@@ -1,201 +1,255 @@
-/* ========================= */
 /* RESET */
-/* ========================= */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* ========================= */
-/* BODY */
-/* ========================= */
 body {
-  font-family: Arial, sans-serif;
-  color: #1a1a1a;
+  background: #ffffff;
+  color: #111;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   line-height: 1.6;
-  overflow-x: hidden;
-  background: #fff;
 }
 
-/* ========================= */
 /* CONTAINER */
-/* ========================= */
 .container {
   max-width: 1100px;
-  margin: 0 auto;
+  margin: auto;
   padding: 0 20px;
 }
 
-/* ========================= */
-/* NAVBAR */
-/* ========================= */
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
+.section {
+  padding: 100px 0;
 }
 
-.nav-links {
-  display: flex;
-  gap: 20px;
+.center {
+  text-align: center;
 }
 
-/* ========================= */
 /* HERO */
-/* ========================= */
 .hero {
-  padding: 80px 20px;
+  padding: 120px 20px 80px;
   text-align: center;
 }
 
 .hero h1 {
   font-size: 48px;
-  line-height: 1.3;
+  font-weight: 600;
+  letter-spacing: -1px;
+  margin-bottom: 20px;
 }
 
 .subtitle {
   font-size: 18px;
-  margin-top: 10px;
   color: #555;
+  max-width: 600px;
+  margin: 0 auto 30px;
 }
 
-/* ========================= */
-/* BUTTONS */
-/* ========================= */
-.hero-buttons {
-  display: flex;
-  gap: 15px;
-  margin-top: 25px;
-  justify-content: center;
-}
-
-.btn-primary {
-  background: black;
-  color: white;
-  padding: 12px 20px;
-  text-decoration: none;
-  border-radius: 6px;
-  display: inline-block;
-}
-
-.btn-secondary {
-  border: 1px solid black;
-  padding: 12px 20px;
-  text-decoration: none;
-  border-radius: 6px;
-  display: inline-block;
-}
-
-/* FULL WIDTH BUTTON (for pricing mobile) */
-.full-btn {
-  display: block;
-  width: 100%;
-  text-align: center;
+.small-text {
+  font-size: 14px;
+  color: #777;
   margin-top: 15px;
 }
 
-/* ========================= */
-/* PRICING */
-/* ========================= */
-.pricing-grid {
+/* BUTTONS */
+.hero-buttons {
   display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.btn-primary {
+  background: #111;
+  color: #fff;
+  padding: 12px 22px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.btn-primary:hover {
+  background: #000;
+}
+
+.btn-secondary {
+  border: 1px solid #ccc;
+  padding: 12px 22px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #111;
+  font-size: 14px;
+}
+
+.btn-secondary:hover {
+  background: #f5f5f5;
+}
+
+/* HOW SECTION */
+.how-layout {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 60px;
+}
+
+.how-left h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.how-left p {
+  color: #555;
+}
+
+.how-block {
+  margin-bottom: 40px;
+}
+
+.how-block span {
+  font-size: 14px;
+  color: #888;
+}
+
+.how-block h3 {
+  font-size: 20px;
+  margin: 8px 0 15px;
+}
+
+.how-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 20px;
-  margin-top: 40px;
 }
 
-.pricing-card {
-  flex: 1;
-  border: 1px solid #ddd;
+.how-grid strong {
+  font-size: 12px;
+  color: #888;
+}
+
+.how-grid p {
+  font-size: 14px;
+  color: #444;
+}
+
+/* WHO */
+.section-title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.who-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #eee;
   padding: 25px;
-  border-radius: 10px;
+  border-radius: 12px;
+  transition: 0.2s;
 }
 
-/* ========================= */
-/* LEGAL PAGES */
-/* ========================= */
-.legal-container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 60px 20px;
-  line-height: 1.8;
+.card:hover {
+  border-color: #ddd;
 }
 
-.legal-container h1 {
-  font-size: 40px;
+.card h3 {
   margin-bottom: 10px;
 }
 
-.legal-container h2 {
-  margin-top: 25px;
-  font-size: 22px;
+.card p {
+  color: #555;
 }
 
-.legal-container p {
-  margin: 10px 0;
+/* SYSTEM */
+.system {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
 }
 
-.legal-container ul {
-  margin-left: 20px;
+.system-box {
+  border: 1px solid #eee;
+  padding: 60px;
+  text-align: center;
+  border-radius: 12px;
+  font-weight: 500;
 }
 
-/* ========================= */
-/* FOOTER */
-/* ========================= */
-.footer {
-  padding: 40px 20px;
-  border-top: 1px solid #eee;
+/* PRICING */
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.pricing-card {
+  border: 1px solid #eee;
+  padding: 30px;
+  border-radius: 12px;
   text-align: center;
 }
 
-/* ========================= */
-/* 📱 MOBILE RESPONSIVE */
-/* ========================= */
+.pricing-card.highlight {
+  border: 2px solid #111;
+}
+
+.price {
+  font-size: 20px;
+  margin: 10px 0 20px;
+}
+
+/* CTA */
+.cta {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.cta h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+/* MOBILE */
 @media (max-width: 768px) {
 
-  /* NAVBAR */
-  .nav-links {
-    display: none;
-  }
-
-  /* HERO */
-  .hero {
-    padding: 50px 15px;
-  }
-
   .hero h1 {
-    font-size: 30px;
+    font-size: 34px;
   }
 
-  .subtitle {
-    font-size: 15px;
+  .how-layout {
+    grid-template-columns: 1fr;
   }
 
-  /* BUTTON STACK */
+  .how-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .who-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pricing-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .system {
+    grid-template-columns: 1fr;
+  }
+
   .hero-buttons {
     flex-direction: column;
   }
 
-  .hero-buttons a {
+  .btn-primary,
+  .btn-secondary {
     width: 100%;
-  }
-
-  /* PRICING STACK */
-  .pricing-grid {
-    flex-direction: column;
-  }
-
-  /* LEGAL */
-  .legal-container {
-    padding: 30px 15px;
-  }
-
-  .legal-container h1 {
-    font-size: 28px;
-  }
-
-  .legal-container h2 {
-    font-size: 18px;
+    text-align: center;
   }
 }
