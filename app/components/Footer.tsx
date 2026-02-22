@@ -1,6 +1,7 @@
 export default function Footer() {
   return (
     <footer className="footer">
+      
       <div className="footer-container">
 
         {/* LEFT */}
@@ -29,9 +30,11 @@ export default function Footer() {
 
       </div>
 
+      {/* BOTTOM */}
       <div className="footer-bottom">
         © 2026 StartupOps AI. All rights reserved. Built for deliberate execution
       </div>
+
     </footer>
   )
 }
