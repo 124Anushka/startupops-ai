@@ -318,7 +318,21 @@ p {
   border-radius: 12px;
   text-align: left;
   transition: 0.2s;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
+.pricing-card a {
+  margin-top: 20px;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+
+
 
 .pricing-card:hover {
   transform: translateY(-4px);
