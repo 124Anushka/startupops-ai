@@ -29,7 +29,8 @@ html, body {
 }
 
 .section {
-  padding: 100px 0;
+  padding: 120px 0;
+  border-bottom: 1px solid #f2f2f2;
 }
 
 .center {
@@ -37,7 +38,7 @@ html, body {
 }
 
 .container {
-  width: 100%;
+  width: 100%;mnnnn
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 24px;
@@ -120,19 +121,19 @@ h2 {
   margin-bottom: 50px;
 }
 h3 {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 p {
-  font-size: 16px;
-  line-height: 1.6;
+  font-size: 17px;
+  line-height: 1.7;
 }
 
 .subtitle {
   max-width: 600px;
   margin: 16px auto;
   color: #666;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .small-text {
