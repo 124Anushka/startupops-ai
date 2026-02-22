@@ -58,8 +58,8 @@ html, body {
 }
 
 .logo {
-  font-weight: 600;
-  font-size: 18px;
+  font-weight: 700;
+  font-size: 24px;
   text-decoration: none;
   color: #111;
 }
@@ -72,13 +72,14 @@ html, body {
 
 .nav-links {
   display: flex;
-  gap: 25px;
+  gap: 28px;
 }
 
 .nav-links a {
   text-decoration: none;
   color: #444;
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .nav-links a:hover {
@@ -438,10 +439,13 @@ p {
 .footer-left p {
   margin-top: 10px;
   color: #666;
+  font-size: 16px;
 }
 
 .footer-links h4 {
   margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .footer-links a {
@@ -449,7 +453,8 @@ p {
   color: #555;
   text-decoration: none;
   margin-bottom: 8px;
-  font-size: 14px;
+  font-size: 16px;
+  line-weight: 1.6;
 }
 
 .footer-links a:hover {
@@ -459,7 +464,7 @@ p {
 .footer-bottom {
   text-align: center;
   margin-top: 40px;
-  font-size: 13px;
+  font-size: 15px;
   color: #777;
 }
 /* ========================= */
