@@ -210,81 +210,88 @@ export default function Home() {
         </div>
       </section>
 
-      {/* PRICING */}
-     <section className="section">
-       <div className="container">
-      <div className="pricing-header">
+     {/* PRICING */}
+<section className="section">
+  <div className="container">
+
+    <div className="pricing-header">
       <h2 className="section-title">Pricing</h2>
-        <div className="section-line"></div>
-        
-          <p className="pricing-sub">"Payments open next week. Early users get priority pricing."</p>
+      <div className="section-line"></div>
 
-          <div className="pricing-grid">
-
-            <div className="pricing-card">
-              <h3>Free</h3>
-              <div className="price">₹0 <span>/ month</span></div>
-
-              <p className="plan-tag">
-                Experience the thinking system
-              </p>
-
-              <ul>
-                <li>Access the core clarity framework</li>
-                <li>Understand your real constraints</li>
-                <li>Shift from reactive to structured thinking</li>
-              </ul>
-
-              <a href="https://chatgpt.com/g/g-69620ff898308191a9da31cfffe153c3-startupops-ai"
-                className="btn-primary full-btn"
-                target="_blank"
-                rel="noopener noreferrer">
-                Try in ChatGPT
-              </a>
-            </div>
-
-            <div className="pricing-card featured">
-              <div className="popular">MOST POPULAR</div>
-              <h3>Starter</h3>
-              <div className="price">₹499 <span>/ month</span></div>
-
-              <p className="plan-tag">
-                For founders who want consistent clarity
-              </p>
-
-              <ul>
-                <li>Context-aware decision support</li>
-                <li>Structured follow-ups & deeper reasoning</li>
-                <li>Constraint-based recommendations</li>
-              </ul>
-
-              <a href="#" className="btn-outline full-btn">
-                Join Waitlist
-              </a>
-            </div>
-
-            <div className="pricing-card">
-              <h3>Pro</h3>
-              <div className="price">₹1999 <span>/ month</span></div>
-
-              <p className="plan-tag">
-                For serious operators & high-stakes decisions
-              </p>
-
-              <ul>
-                <li>Deep trade-off analysis</li>
-                <li>Execution-grade clarity & prioritization</li>
-                <li>High-leverage decision frameworks</li>
-              </ul>
-
-              <a href="#" className="btn-primary full-btn">
-                Request Pro Access
-              </a>
-            </div>
-
-          </div>
+      <p className="pricing-sub">
+        Payments open next week. Early users get priority pricing.
+      </p>
     </div>
-  </section>    
+
+    <div className="pricing-grid">
+
+      <div className="pricing-card">
+        <h3>Free</h3>
+        <div className="price">₹0 <span>/ month</span></div>
+
+        <p className="plan-tag">
+          Experience the thinking system
+        </p>
+
+        <ul>
+          <li>Access the core clarity framework</li>
+          <li>Understand your real constraints</li>
+          <li>Shift from reactive to structured thinking</li>
+        </ul>
+
+        <a
+          href="https://chatgpt.com/g/g-69620ff898308191a9da31cfffe153c3-startupops-ai"
+          className="btn-primary full-btn"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Try in ChatGPT
+        </a>
+      </div>
+
+      <div className="pricing-card featured">
+        <div className="popular">MOST POPULAR</div>
+        <h3>Starter</h3>
+        <div className="price">₹499 <span>/ month</span></div>
+
+        <p className="plan-tag">
+          For founders who want consistent clarity
+        </p>
+
+        <ul>
+          <li>Context-aware decision support</li>
+          <li>Structured follow-ups & deeper reasoning</li>
+          <li>Constraint-based recommendations</li>
+        </ul>
+
+        <a href="#" className="btn-outline full-btn">
+          Join Waitlist
+        </a>
+      </div>
+
+      <div className="pricing-card">
+        <h3>Pro</h3>
+        <div className="price">₹1999 <span>/ month</span></div>
+
+        <p className="plan-tag">
+          For serious operators & high-stakes decisions
+        </p>
+
+        <ul>
+          <li>Deep trade-off analysis</li>
+          <li>Execution-grade clarity & prioritization</li>
+          <li>High-leverage decision frameworks</li>
+        </ul>
+
+        <a href="#" className="btn-primary full-btn">
+          Request Pro Access
+        </a>
+      </div>
+
+    </div>
+
+  </div>
+</section>
 
       {/* CTA */}
       <section className="cta-section section">
