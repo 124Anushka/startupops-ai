@@ -3,11 +3,13 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer-container">
 
+        {/* LEFT */}
         <div className="footer-left">
           <h2>StartupOps AI</h2>
           <p>Clarity before execution.</p>
         </div>
 
+        {/* CENTER */}
         <div className="footer-links">
           <h4>Company</h4>
           <a href="#">About</a>
@@ -16,6 +18,7 @@ export default function Footer() {
           <a href="#contact">Contact</a>
         </div>
 
+        {/* RIGHT */}
         <div className="footer-links">
           <h4>Legal</h4>
           <a href="#">Privacy Policy</a>
@@ -27,8 +30,7 @@ export default function Footer() {
       </div>
 
       <div className="footer-bottom">
-        © 2026 StartupOps AI. All rights reserved. 
-             Built for deliberate execution
+        © 2026 StartupOps AI. All rights reserved. Built for deliberate execution
       </div>
     </footer>
   )
