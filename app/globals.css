@@ -5,11 +5,11 @@
   box-sizing: border-box;
 }
 
-body {
+html, body {
+  font-family: -apple-system, BlinkMacSystemFont, "Inter", sans-serif;
   background: #ffffff;
   color: #111;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  line-height: 1.6;
+  scroll-behavior: smooth;
 }
 
 /* CONTAINER */
@@ -19,8 +19,9 @@ body {
   padding: 0 20px;
 }
 
+/* SECTIONS */
 .section {
-  padding: 100px 0;
+  padding: 100px 20px;
 }
 
 .center {
@@ -28,202 +29,254 @@ body {
 }
 
 /* HERO */
-.hero {
-  padding: 120px 20px 80px;
-  text-align: center;
-}
-
 .hero h1 {
-  font-size: 48px;
-  font-weight: 600;
-  letter-spacing: -1px;
+  font-size: 56px;
+  font-weight: 700;
   margin-bottom: 20px;
 }
 
 .subtitle {
   font-size: 18px;
-  color: #555;
+  color: #666;
   max-width: 600px;
-  margin: 0 auto 30px;
+  margin: auto;
+  line-height: 1.6;
+}
+
+.hero-buttons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
 }
 
 .small-text {
-  font-size: 14px;
-  color: #777;
-  margin-top: 15px;
-}
-
-/* BUTTONS */
-.hero-buttons {
-  display: flex;
-  justify-content: center;
-  gap: 12px;
   margin-top: 20px;
-}
-
-.btn-primary {
-  background: #111;
-  color: #fff;
-  padding: 12px 22px;
-  border-radius: 8px;
-  text-decoration: none;
-  font-size: 14px;
-  transition: 0.2s;
-}
-
-.btn-primary:hover {
-  background: #000;
-}
-
-.btn-secondary {
-  border: 1px solid #ccc;
-  padding: 12px 22px;
-  border-radius: 8px;
-  text-decoration: none;
-  color: #111;
-  font-size: 14px;
-}
-
-.btn-secondary:hover {
-  background: #f5f5f5;
-}
-
-/* HOW SECTION */
-.how-layout {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 60px;
-}
-
-.how-left h2 {
-  font-size: 32px;
-  margin-bottom: 15px;
-}
-
-.how-left p {
-  color: #555;
-}
-
-.how-block {
-  margin-bottom: 40px;
-}
-
-.how-block span {
   font-size: 14px;
   color: #888;
 }
 
+/* BUTTONS */
+.btn-primary {
+  background: #111;
+  color: #fff;
+  padding: 14px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.btn-secondary {
+  border: 1px solid #ccc;
+  padding: 14px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #333;
+}
+
+.full-btn {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* HOW SECTION */
+.how-section {
+  padding: 100px 20px;
+}
+
+.how-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 60px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.how-left h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.how-left p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.line {
+  width: 60px;
+  height: 2px;
+  background: #111;
+  margin-top: 20px;
+}
+
+.how-block {
+  margin-bottom: 50px;
+}
+
+.how-number {
+  color: #aaa;
+  font-size: 14px;
+}
+
 .how-block h3 {
-  font-size: 20px;
-  margin: 8px 0 15px;
+  margin: 10px 0;
 }
 
 .how-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  gap: 30px;
 }
 
-.how-grid strong {
+.label {
   font-size: 12px;
-  color: #888;
+  color: #999;
+  letter-spacing: 1px;
 }
 
-.how-grid p {
-  font-size: 14px;
-  color: #444;
-}
-
-/* WHO */
-.section-title {
+/* WHO SECTION */
+.who-section {
+  padding: 100px 20px;
   text-align: center;
-  font-size: 32px;
-  margin-bottom: 40px;
 }
 
 .who-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  gap: 30px;
+  margin-top: 40px;
 }
 
-.card {
+.who-card {
   border: 1px solid #eee;
-  padding: 25px;
+  padding: 30px;
   border-radius: 12px;
-  transition: 0.2s;
+  text-align: left;
 }
 
-.card:hover {
-  border-color: #ddd;
-}
-
-.card h3 {
+.who-card h3 {
   margin-bottom: 10px;
 }
 
-.card p {
+.who-main {
   color: #555;
 }
 
+.who-sub {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #777;
+}
+
 /* SYSTEM */
-.system {
+.system-section {
+  padding: 100px 20px;
+}
+
+.system-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 40px;
+  gap: 50px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.system-left h2 {
+  font-size: 36px;
+}
+
+.system-list {
+  margin-top: 20px;
+}
+
+.system-list li {
+  margin-bottom: 10px;
+}
+
+.system-right {
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
-.system-box {
-  border: 1px solid #eee;
-  padding: 60px;
-  text-align: center;
-  border-radius: 12px;
-  font-weight: 500;
+.chaos-box, .order-box {
+  border: 1px solid #ddd;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.connector {
+  margin: 0 20px;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  background: #111;
+  border-radius: 50%;
 }
 
 /* PRICING */
+.pricing-section {
+  padding: 100px 20px;
+  text-align: center;
+}
+
 .pricing-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  gap: 30px;
+  margin-top: 40px;
 }
 
 .pricing-card {
   border: 1px solid #eee;
   padding: 30px;
   border-radius: 12px;
-  text-align: center;
 }
 
-.pricing-card.highlight {
+.featured {
   border: 2px solid #111;
 }
 
 .price {
-  font-size: 20px;
-  margin: 10px 0 20px;
+  font-size: 24px;
+  margin: 10px 0;
 }
 
 /* CTA */
-.cta {
+.cta-section {
+  padding: 100px 20px;
   text-align: center;
-  padding: 80px 20px;
 }
 
-.cta h2 {
-  font-size: 32px;
-  margin-bottom: 20px;
+.cta-button {
+  margin-top: 20px;
+  display: inline-block;
+  padding: 14px 24px;
+  background: #111;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
 }
 
-/* MOBILE */
-@media (max-width: 768px) {
+/* CONTACT */
+.section-title {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
 
   .hero h1 {
-    font-size: 34px;
+    font-size: 36px;
   }
 
-  .how-layout {
+  .how-container {
     grid-template-columns: 1fr;
   }
 
@@ -235,21 +288,12 @@ body {
     grid-template-columns: 1fr;
   }
 
+  .system-container {
+    grid-template-columns: 1fr;
+  }
+
   .pricing-grid {
     grid-template-columns: 1fr;
   }
 
-  .system {
-    grid-template-columns: 1fr;
-  }
-
-  .hero-buttons {
-    flex-direction: column;
-  }
-
-  .btn-primary,
-  .btn-secondary {
-    width: 100%;
-    text-align: center;
-  }
 }
