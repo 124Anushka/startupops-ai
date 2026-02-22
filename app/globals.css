@@ -1,4 +1,7 @@
+/* ========================= */
 /* RESET */
+/* ========================= */
+
 * {
   margin: 0;
   padding: 0;
@@ -7,40 +10,108 @@
 
 html, body {
   font-family: -apple-system, BlinkMacSystemFont, "Inter", sans-serif;
-  background: #ffffff;
+  background: #fff;
   color: #111;
   scroll-behavior: smooth;
 }
 
-/* CONTAINER */
+/* ========================= */
+/* LAYOUT SYSTEM */
+/* ========================= */
+
 .container {
-  max-width: 1100px;
+  max-width: 1200px;
   margin: auto;
   padding: 0 20px;
 }
 
-/* SECTIONS */
 .section {
-  padding: 100px 20px;
+  padding: 100px 0;
 }
 
 .center {
   text-align: center;
 }
 
-/* HERO */
-.hero h1 {
-  font-size: 56px;
-  font-weight: 700;
-  margin-bottom: 20px;
+/* ========================= */
+/* TYPOGRAPHY */
+/* ========================= */
+
+h1 {
+  font-size: clamp(36px, 6vw, 64px);
+  line-height: 1.1;
+  letter-spacing: -1px;
+}
+
+h2 {
+  font-size: clamp(28px, 4vw, 44px);
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 .subtitle {
-  font-size: 18px;
-  color: #666;
   max-width: 600px;
-  margin: auto;
-  line-height: 1.6;
+  margin: 16px auto;
+  color: #666;
+  font-size: 18px;
+}
+
+.small-text {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #888;
+}
+
+/* ========================= */
+/* BUTTONS */
+/* ========================= */
+
+.btn-primary {
+  background: #111;
+  color: #fff;
+  padding: 14px 22px;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 500;
+}
+
+.btn-secondary {
+  border: 1px solid #ccc;
+  padding: 14px 22px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #333;
+}
+
+.btn-outline {
+  border: 1px solid #111;
+  padding: 12px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #111;
+}
+
+.full-btn {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* ========================= */
+/* HERO */
+/* ========================= */
+
+.hero {
+  text-align: center;
+  padding-top: 120px;
 }
 
 .hero-buttons {
@@ -51,58 +122,22 @@ html, body {
   flex-wrap: wrap;
 }
 
-.small-text {
-  margin-top: 20px;
-  font-size: 14px;
-  color: #888;
-}
-
-/* BUTTONS */
-.btn-primary {
-  background: #111;
-  color: #fff;
-  padding: 14px 24px;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: 500;
-  display: inline-block;
-}
-
-.btn-secondary {
-  border: 1px solid #ccc;
-  padding: 14px 24px;
-  border-radius: 8px;
-  text-decoration: none;
-  color: #333;
-}
-
-.full-btn {
-  width: 100%;
-  text-align: center;
-  margin-top: 20px;
-}
-
+/* ========================= */
 /* HOW SECTION */
-.how-section {
-  padding: 100px 20px;
-}
+/* ========================= */
 
 .how-container {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  gap: 60px;
-  max-width: 1100px;
-  margin: auto;
+  gap: 80px;
 }
 
 .how-left h2 {
-  font-size: 36px;
   margin-bottom: 20px;
 }
 
 .how-left p {
   color: #555;
-  line-height: 1.6;
 }
 
 .line {
@@ -113,22 +148,19 @@ html, body {
 }
 
 .how-block {
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 
 .how-number {
-  color: #aaa;
   font-size: 14px;
-}
-
-.how-block h3 {
-  margin: 10px 0;
+  color: #aaa;
 }
 
 .how-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 30px;
+  margin-top: 10px;
 }
 
 .label {
@@ -137,31 +169,40 @@ html, body {
   letter-spacing: 1px;
 }
 
+/* ========================= */
 /* WHO SECTION */
-.who-section {
-  padding: 100px 20px;
-  text-align: center;
+/* ========================= */
+
+.who-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.who-tagline {
+  color: #666;
 }
 
 .who-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 .who-card {
   border: 1px solid #eee;
   padding: 30px;
   border-radius: 12px;
-  text-align: left;
+  transition: 0.2s;
 }
 
-.who-card h3 {
-  margin-bottom: 10px;
+.who-card:hover {
+  border-color: #111;
 }
 
 .who-main {
+  margin-top: 10px;
   color: #555;
 }
 
@@ -171,25 +212,19 @@ html, body {
   color: #777;
 }
 
+/* ========================= */
 /* SYSTEM */
-.system-section {
-  padding: 100px 20px;
-}
+/* ========================= */
 
 .system-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 50px;
-  max-width: 1100px;
-  margin: auto;
+  gap: 60px;
 }
 
-.system-left h2 {
-  font-size: 36px;
-}
-
-.system-list {
-  margin-top: 20px;
+.system-description {
+  margin: 20px 0;
+  color: #555;
 }
 
 .system-list li {
@@ -198,14 +233,15 @@ html, body {
 
 .system-right {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 .chaos-box, .order-box {
   border: 1px solid #ddd;
   padding: 30px;
   border-radius: 10px;
+  font-weight: 600;
 }
 
 .connector {
@@ -219,37 +255,54 @@ html, body {
   border-radius: 50%;
 }
 
+/* ========================= */
 /* PRICING */
-.pricing-section {
-  padding: 100px 20px;
+/* ========================= */
+
+.pricing-header {
   text-align: center;
+}
+
+.pricing-sub {
+  color: #666;
+  margin-top: 10px;
 }
 
 .pricing-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 .pricing-card {
   border: 1px solid #eee;
-  padding: 30px;
+  padding: 40px;
   border-radius: 12px;
+  text-align: left;
+  transition: 0.2s;
+}
+
+.pricing-card:hover {
+  transform: translateY(-4px);
 }
 
 .featured {
-  border: 2px solid #111;
+  background: #111;
+  color: #fff;
+  border: none;
 }
 
 .price {
-  font-size: 24px;
-  margin: 10px 0;
+  font-size: 28px;
+  margin: 15px 0;
 }
 
+/* ========================= */
 /* CTA */
+/* ========================= */
+
 .cta-section {
-  padding: 100px 20px;
   text-align: center;
 }
 
@@ -263,37 +316,92 @@ html, body {
   text-decoration: none;
 }
 
-/* CONTACT */
-.section-title {
+/* ========================= */
+/* FOOTER */
+/* ========================= */
+
+.footer {
+  padding: 80px 20px;
+  border-top: 1px solid #eee;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 60px;
+}
+
+.footer-left h2 {
   font-size: 28px;
+}
+
+.footer-left p {
+  margin-top: 10px;
+  color: #666;
+}
+
+.footer-links h4 {
   margin-bottom: 10px;
 }
 
+.footer-links a {
+  display: block;
+  color: #555;
+  text-decoration: none;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  color: #111;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 13px;
+  color: #777;
+}
+
+/* ========================= */
 /* RESPONSIVE */
+/* ========================= */
+
 @media (max-width: 900px) {
 
-  .hero h1 {
-    font-size: 36px;
+  .section {
+    padding: 70px 0;
   }
 
-  .how-container {
+  .how-container,
+  .system-container {
     grid-template-columns: 1fr;
+    gap: 40px;
   }
 
   .how-grid {
     grid-template-columns: 1fr;
   }
 
-  .who-grid {
-    grid-template-columns: 1fr;
+  .who-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
   }
 
-  .system-container {
+  .who-grid {
     grid-template-columns: 1fr;
   }
 
   .pricing-grid {
     grid-template-columns: 1fr;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 30px;
   }
 
 }
