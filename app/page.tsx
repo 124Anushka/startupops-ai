@@ -188,33 +188,79 @@ export default function Home() {
       </section>
 
       {/* PRICING */}
-      <section className="section">
-        <div className="container">
-          <h2 className="section-title">Pricing</h2>
 
-          <div className="pricing-grid">
+<div className="pricing-card">
+  <h3>Free</h3>
 
-            <div className="pricing-card">
-              <h3>Free</h3>
-              <p className="price">₹0 / month</p>
-              <a className="btn-primary">Try</a>
-            </div>
+  <div className="price">
+    ₹0 <span>/ month</span>
+  </div>
 
-            <div className="pricing-card highlight">
-              <h3>Starter</h3>
-              <p className="price">₹499 / month</p>
-              <a className="btn-secondary">Join</a>
-            </div>
+  <p className="plan-tag">
+    Experience the thinking system
+  </p>
 
-            <div className="pricing-card">
-              <h3>Pro</h3>
-              <p className="price">₹1999 / month</p>
-              <a className="btn-primary">Request</a>
-            </div>
+  <ul>
+    <li>Access the core clarity framework</li>
+    <li>Understand your real constraints</li>
+    <li>Shift from reactive to structured thinking</li>
+  </ul>
 
-          </div>
-        </div>
-      </section>
+  <a href="https://chatgpt.com/g/g-69620ff898308191a9da31cfffe153c3-startupops-ai"
+     className="btn-primary full-btn"
+     target="_blank"
+     rel="noopener noreferrer">
+    Try in ChatGPT
+  </a>
+</div>
+
+
+<div className="pricing-card featured">
+  <div className="popular">MOST POPULAR</div>
+
+  <h3>Starter</h3>
+
+  <div className="price">
+    ₹499 <span>/ month</span>
+  </div>
+
+  <p className="plan-tag">
+    For founders who want consistent clarity
+  </p>
+
+  <ul>
+    <li>Context-aware decision support</li>
+    <li>Structured follow-ups & deeper reasoning</li>
+    <li>Constraint-based recommendations</li>
+  </ul>
+
+  <a href="#" className="btn-outline full-btn">
+    Join Waitlist
+  </a>
+</div>
+
+
+<div className="pricing-card">
+  <h3>Pro</h3>
+
+  <div className="price">
+    ₹1999 <span>/ month</span>
+  </div>
+
+  <p className="plan-tag">
+    For serious operators & high-stakes decisions
+  </p>
+
+  <ul>
+    <li>Deep trade-off analysis</li>
+    <li>Execution-grade clarity & prioritization</li>
+    <li>High-leverage decision frameworks</li>
+  </ul>
+
+  <a href="#" className="btn-primary full-btn">
+    Request Pro Access
+  </a>
+</div>
 
       {/* CTA */}
       <section className="cta">
