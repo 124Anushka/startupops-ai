@@ -111,37 +111,57 @@ export default function Home() {
   </div>
 </div>
 
-      {/* WHO */}
-      <section className="section">
-        <div className="container">
-          <h2 className="section-title">Who it’s for</h2>
+      {/* WHO IT’S FOR */}
 
-          <div className="who-grid">
+<div className="who-card">
+  <h3>Startup Founder / CEO</h3>
+  <div className="mini-line"></div>
 
-            <div className="card">
-              <h3>Startup Founder / CEO</h3>
-              <p>
-                Overwhelmed by decisions and lack of strategic clarity.
-              </p>
-            </div>
+  <p className="who-main">
+    Constant decisions, unclear priorities, and no signal for what actually matters.
+  </p>
 
-            <div className="card">
-              <h3>Product Manager</h3>
-              <p>
-                Struggling with prioritization and stakeholder pressure.
-              </p>
-            </div>
+  <div className="card-divider"></div>
 
-            <div className="card">
-              <h3>Solo Operator</h3>
-              <p>
-                Doing everything with limited time and unclear direction.
-              </p>
-            </div>
+  <p className="who-sub">
+    “StartupOps AI acts as a thinking partner that isolates your real constraint,
+    cuts through noise, and ensures every decision compounds — not distracts.”
+  </p>
+</div>
 
-          </div>
-        </div>
-      </section>
+
+<div className="who-card">
+  <h3>Product Manager / Product Lead</h3>
+  <div className="mini-line"></div>
+
+  <p className="who-main">
+    Pulled between stakeholders, roadmap pressure, and unclear trade-offs.
+  </p>
+
+  <div className="card-divider"></div>
+
+  <p className="who-sub">
+    “StartupOps AI structures decisions against real constraints,
+    making every roadmap choice defensible, focused, and execution-ready.”
+  </p>
+</div>
+
+
+<div className="who-card">
+  <h3>Solo Operator / Early-Stage Builder</h3>
+  <div className="mini-line"></div>
+
+  <p className="who-main">
+    Doing everything at once with limited time, capital, and clarity.
+  </p>
+
+  <div className="card-divider"></div>
+
+  <p className="who-sub">
+    “StartupOps AI eliminates chaotic motion and surfaces what actually deserves execution,
+    so effort goes where it creates leverage.”
+  </p>
+</div>
 
       {/* SYSTEM */}
       <section className="section">
