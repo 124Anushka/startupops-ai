@@ -212,10 +212,7 @@ export default function Home() {
 
       {/* PRICING */}
      <section className="section">
-       <div className="container"
-         <div className="pricing-header">
-
-      
+       <div className="container">
       <div className="pricing-header">
       <h2 className="section-title">Pricing</h2>
         <div className="section-line"></div>
@@ -286,8 +283,6 @@ export default function Home() {
             </div>
 
           </div>
-
-      </div>
     </div>
   </section>    
 
