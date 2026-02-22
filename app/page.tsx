@@ -215,6 +215,7 @@ export default function Home() {
         <div className="container">
 
           <h2 className="section-title">Pricing</h2>
+          <p className="section-sub">"Payments open next week. Early users get priority pricing."</p>
 
           <div className="pricing-grid">
 
