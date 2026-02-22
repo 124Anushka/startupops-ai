@@ -266,18 +266,22 @@ export default function Home() {
   </a>
 </div>
 
-      {/* CTA */}
-      <section className="cta">
-        <h2>Think clearly before you execute.</h2>
+     <section className="cta-section">
+  <div className="cta-container">
 
-        <a
-          href="https://chatgpt.com/g/g-69620ff898308191a9da31cfffe153c3-startupops-ai"
-          className="btn-primary"
-        >
-          Start free in ChatGPT
-        </a>
-      </section>
+    <h2>Think clearly before you execute.</h2>
 
+    <a
+      href="https://chatgpt.com/g/g-69620ff898308191a9da31cfffe153c3-startupops-ai"
+      className="cta-button"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Start free in ChatGPT
+    </a>
+
+  </div>
+</section>
       {/* CONTACT */}
       <section className="section center">
         <div className="container">
