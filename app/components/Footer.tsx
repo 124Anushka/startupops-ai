@@ -27,7 +27,8 @@ export default function Footer() {
       </div>
 
       <div className="footer-bottom">
-        © 2026 StartupOps AI. All rights reserved. Built for deliberate execution
+        © 2026 StartupOps AI. All rights reserved. 
+             Built for deliberate execution
       </div>
     </footer>
   )
