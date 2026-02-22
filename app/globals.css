@@ -164,11 +164,13 @@ p {
 }
 
 .btn-outline {
-  border: 1px solid currentColor;
+  border: 1px solid #111;
   padding: 12px 18px;
   border-radius: 8px;
   text-decoration: none;
-  color: inherit;
+  color: #111;
+  background: transparent;
+  display: inline-block;
 }
 .featured .btn-outline {
   border: 1px solid #fff;
