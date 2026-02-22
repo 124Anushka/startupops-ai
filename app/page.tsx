@@ -3,20 +3,24 @@ export default function Home() {
     <main>
 
       {/* HERO */}
-      <section className="section hero">
+      <section className="hero">
         <div className="container center">
           <h1>Clarity before execution.</h1>
+
           <p className="subtitle">
             Structured thinking for founders and operators who refuse chaotic execution.
           </p>
 
           <div className="hero-buttons">
-            <a href="https://chatgpt.com/g/g-69620ff898308191a9da31cfffe153c3-startupops-ai" className="btn-primary"
+            <a
+              href="https://chatgpt.com/g/g-69620ff898308191a9da31cfffe153c3-startupops-ai"
+              className="btn-primary"
               target="_blank"
               rel="noopener noreferrer"
             >
               Try StartupOps AI
             </a>
+
             <a href="#how" className="btn-secondary">
               See how it works
             </a>
@@ -28,302 +32,192 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="how" className="how-section">
-  <div className="how-container">
+      {/* HOW */}
+      <section id="how" className="section">
+        <div className="container how-layout">
 
-    {/* LEFT SIDE */}
-    <div className="how-left">
-      <h2>Operational<br />Clarity</h2>
-      <p>
-        We don’t do tasks. We fix the thinking that generates the tasks.
-        Diagnose constraints. Surface trade-offs. Decide deliberately.
-      </p>
-      <div className="line"></div>
-    </div>
-
-    {/* RIGHT SIDE */}
-    <div className="how-right">
-
-      {/* 01 */}
-      <div className="how-block">
-        <span className="how-number">01</span>
-        <h3>Problem Diagnosis Before Action</h3>
-
-        <div className="how-grid">
-          <div>
-            <span className="label">DIAGNOSIS</span>
+          {/* LEFT */}
+          <div className="how-left">
+            <h2>Operational Clarity</h2>
             <p>
-              Most teams rush into execution while solving the wrong problem.
-              Signals are noisy, opinions conflict, and surface symptoms get treated
-              instead of root causes.
+              We don’t do tasks. We fix the thinking that generates the tasks.
+              Diagnose constraints. Surface trade-offs. Decide deliberately.
             </p>
           </div>
 
-          <div>
-            <span className="label">BENEFIT</span>
-            <p>
-              StartupOps AI isolates the true constraint behind the situation,
-              ensuring effort is applied only where it actually changes outcomes.
-            </p>
-          </div>
-        </div>
-      </div>
+          {/* RIGHT */}
+          <div className="how-right">
 
-      {/* 02 */}
-      <div className="how-block">
-        <span className="how-number">02</span>
-        <h3>Constraint-Aware Decision Making</h3>
+            {/* BLOCK */}
+            <div className="how-block">
+              <span>01</span>
+              <h3>Problem Diagnosis Before Action</h3>
 
-        <div className="how-grid">
-          <div>
-            <span className="label">DIAGNOSIS</span>
-            <p>
-              Plans often fail because they’re designed in ideal conditions,
-              ignoring real limitations like time, capital, people,
-              and operational load.
-            </p>
-          </div>
+              <div className="how-grid">
+                <div>
+                  <strong>DIAGNOSIS</strong>
+                  <p>
+                    Most teams rush into execution while solving the wrong problem.
+                  </p>
+                </div>
 
-          <div>
-            <span className="label">BENEFIT</span>
-            <p>
-              Every recommendation is evaluated against your actual constraints,
-              producing decisions that are realistic, defensible, and executable.
-            </p>
-          </div>
-        </div>
-      </div>
+                <div>
+                  <strong>BENEFIT</strong>
+                  <p>
+                    Effort is applied only where it actually changes outcomes.
+                  </p>
+                </div>
+              </div>
+            </div>
 
-      {/* 03 */}
-      <div className="how-block">
-        <span className="how-number">03</span>
-        <h3>Execution Readiness & Trade-Off Clarity</h3>
+            <div className="how-block">
+              <span>02</span>
+              <h3>Constraint-Aware Decision Making</h3>
 
-        <div className="how-grid">
-          <div>
-            <span className="label">DIAGNOSIS</span>
-            <p>
-              Execution too early creates waste; execution too late creates drift.
-              Most teams lack a clear signal for when action is justified.
-            </p>
-          </div>
+              <div className="how-grid">
+                <div>
+                  <strong>DIAGNOSIS</strong>
+                  <p>
+                    Plans ignore real limitations like time, capital, and team.
+                  </p>
+                </div>
 
-          <div>
-            <span className="label">BENEFIT</span>
-            <p>
-              StartupOps AI clarifies trade-offs, priorities, and timing so execution
-              happens only when it delivers leverage — not noise.
-            </p>
+                <div>
+                  <strong>BENEFIT</strong>
+                  <p>
+                    Decisions become realistic, defensible, and executable.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="how-block">
+              <span>03</span>
+              <h3>Execution Readiness & Trade-Off Clarity</h3>
+
+              <div className="how-grid">
+                <div>
+                  <strong>DIAGNOSIS</strong>
+                  <p>
+                    Teams lack a clear signal for when execution is justified.
+                  </p>
+                </div>
+
+                <div>
+                  <strong>BENEFIT</strong>
+                  <p>
+                    Execution happens only when it delivers leverage — not noise.
+                  </p>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
-      </div>
+      </section>
 
-    </div>
-  </div>
-</section>
+      {/* WHO */}
+      <section className="section">
+        <div className="container">
+          <h2 className="section-title">Who it’s for</h2>
 
-      <section id="who" className="who-section">
-  <div className="who-header">
-    <h2>Who it’s for</h2>
-    <p className="who-tagline">
-      Designed for high-leverage operators.
-    </p>
-  </div>
+          <div className="who-grid">
 
-  <div className="who-divider"></div>
+            <div className="card">
+              <h3>Startup Founder / CEO</h3>
+              <p>
+                Overwhelmed by decisions and lack of strategic clarity.
+              </p>
+            </div>
 
-  <div className="who-grid">
+            <div className="card">
+              <h3>Product Manager</h3>
+              <p>
+                Struggling with prioritization and stakeholder pressure.
+              </p>
+            </div>
 
-    {/* COLUMN 1 */}
-    <div className="who-card">
-      <h3>Startup Founder / CEO</h3>
-      <div className="mini-line"></div>
+            <div className="card">
+              <h3>Solo Operator</h3>
+              <p>
+                Doing everything with limited time and unclear direction.
+              </p>
+            </div>
 
-      <p className="who-main">
-        Overwhelmed by operational noise, constant decisions,
-        and lack of strategic focus.
-      </p>
+          </div>
+        </div>
+      </section>
 
-      <div className="card-divider"></div>
+      {/* SYSTEM */}
+      <section className="section">
+        <div className="container system">
 
-      <p className="who-sub">
-        “StartupOps AI isolates the real constraint behind your growth
-        bottlenecks, ensuring decisions are deliberate and leverage-driven
-        — not reactive.”
-      </p>
-    </div>
+          <div>
+            <h2>Systematic Thinking</h2>
+            <p>
+              Transform messy signals into clear execution direction.
+            </p>
 
-    {/* COLUMN 2 */}
-    <div className="who-card">
-      <h3>Product Manager / Product Lead</h3>
-      <div className="mini-line"></div>
+            <ul>
+              <li><strong>Input:</strong> Raw uncertainty</li>
+              <li><strong>Process:</strong> Diagnosis</li>
+              <li><strong>Output:</strong> Clear execution</li>
+            </ul>
+          </div>
 
-      <p className="who-main">
-        Struggling with prioritization pressure,
-        stakeholder noise, and unclear trade-offs.
-      </p>
+          <div className="system-box">
+            <div>CHAOS → ORDER</div>
+          </div>
 
-      <div className="card-divider"></div>
+        </div>
+      </section>
 
-      <p className="who-sub">
-        “StartupOps AI structures decisions against real constraints,
-        making every roadmap choice defensible and executable.”
-      </p>
-    </div>
+      {/* PRICING */}
+      <section className="section">
+        <div className="container">
+          <h2 className="section-title">Pricing</h2>
 
-    {/* COLUMN 3 */}
-    <div className="who-card">
-      <h3>Solo Operator / Early-Stage Builder</h3>
-      <div className="mini-line"></div>
+          <div className="pricing-grid">
 
-      <p className="who-main">
-        Doing everything at once with limited
-        time, capital, and operational clarity.
-      </p>
+            <div className="pricing-card">
+              <h3>Free</h3>
+              <p className="price">₹0 / month</p>
+              <a className="btn-primary">Try</a>
+            </div>
 
-      <div className="card-divider"></div>
+            <div className="pricing-card highlight">
+              <h3>Starter</h3>
+              <p className="price">₹499 / month</p>
+              <a className="btn-secondary">Join</a>
+            </div>
 
-      <p className="who-sub">
-        “StartupOps AI eliminates chaotic motion and clarifies
-        what actually deserves execution.”
-      </p>
-    </div>
+            <div className="pricing-card">
+              <h3>Pro</h3>
+              <p className="price">₹1999 / month</p>
+              <a className="btn-primary">Request</a>
+            </div>
 
-  </div>
-</section>
+          </div>
+        </div>
+      </section>
 
+      {/* CTA */}
+      <section className="cta">
+        <h2>Think clearly before you execute.</h2>
 
-<section className="system-section">
-  <div className="system-container">
+        <a
+          href="https://chatgpt.com/g/g-69620ff898308191a9da31cfffe153c3-startupops-ai"
+          className="btn-primary"
+        >
+          Start free in ChatGPT
+        </a>
+      </section>
 
-    {/* LEFT SIDE */}
-    <div className="system-left">
-      <h2>Systematic<br />Thinking</h2>
-
-      <p className="system-description">
-        Chaos comes from unstructured inputs. StartupOps AI acts
-        as the filter, transforming messy signals into linear,
-        actionable directives.
-      </p>
-
-      <ul className="system-list">
-        <li><strong>Input:</strong> Raw uncertainty & constraints</li>
-        <li><strong>Process:</strong> Diagnosis & Framing</li>
-        <li><strong>Output:</strong> Clear Execution Direction</li>
-      </ul>
-    </div>
-
-    {/* RIGHT SIDE */}
-    <div className="system-right">
-      <div className="chaos-box">CHAOS</div>
-
-      <div className="connector">
-        <div className="circle"></div>
-      </div>
-
-      <div className="order-box">ORDER</div>
-    </div>
-
-  </div>
-</section>
-      
-
-      <section id="pricing" className="pricing-section">
-  <div className="pricing-header">
-    <h2>Pricing</h2>
-    <p className="pricing-sub">
-      "Payments open next week — early users get priority pricing."
-    </p>
-  </div>
-
-  <div className="pricing-grid">
-
-    {/* FREE */}
-    <div className="pricing-card">
-      <h3>Free</h3>
-      <div className="price">
-        ₹0 <span>/ month</span>
-      </div>
-
-      <p className="plan-tag">Try the thinking style</p>
-
-      <ul>
-        <li>Design to experience the clarity framework</li>
-      </ul>
-
-      <a href="https://chatgpt.com/g/g-69620ff898308191a9da31cfffe153c3-startupops-ai" className="btn-primary full-btn"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Try in ChatGPT
-      </a>
-    </div>
-
-    {/* STARTER */}
-    <div className="pricing-card featured">
-      <div className="popular">MOST POPULAR</div>
-
-      <h3>Starter</h3>
-      <div className="price">
-        ₹499 <span>/ month</span>
-      </div>
-
-      <p className="plan-tag">For solo founders & builders</p>
-
-      <ul>
-        <li>Context-aware reasoning</li>
-        <li>Structured follow-ups</li>
-      </ul>
-
-      <a href="#" className="btn-outline full-btn">
-        Join Waitlist
-      </a>
-    </div>
-
-    {/* PRO */}
-    <div className="pricing-card">
-      <h3>Pro</h3>
-      <div className="price">
-        ₹1999 <span>/ month</span>
-      </div>
-
-      <p className="plan-tag">For serious operators</p>
-
-      <ul>
-        <li>Deep trade-off mapping</li>
-        <li>Execution-grade clarity</li>
-      </ul>
-
-      <a href="#" className="btn-primary full-btn">
-        Request Pro Access
-      </a>
-    </div>
-
-  </div>
-</section>
-
-
-
-<section className="cta-section">
-  <div className="cta-container">
-
-    <h2>Think clearly before you execute.</h2>
-
-    <a href="https://chatgpt.com/g/g-69620ff898308191a9da31cfffe153c3-startupops-ai" className="cta-button">
-      Start free in ChatGPT
-    </a>
-
-  </div>
-</section>
-
-      
       {/* CONTACT */}
-      <section id="contact" className="section center">
+      <section className="section center">
         <div className="container">
           <h2 className="section-title">Contact</h2>
-          <p className="subtitle">
-            For partnerships, early access, or structured strategic thinking.
-          </p>
+
           <a href="mailto:hello@startupopsai.com" className="btn-primary">
             hello@startupopsai.com
           </a>
@@ -331,5 +225,5 @@ export default function Home() {
       </section>
 
     </main>
-  )
+  );
 }
