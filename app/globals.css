@@ -50,6 +50,12 @@ h2 {
   font-size: clamp(28px, 4vw, 44px);
 }
 
+.section-title {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+
 h3 {
   font-size: 20px;
 }
