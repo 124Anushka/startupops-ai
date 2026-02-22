@@ -180,7 +180,7 @@ export default function Home() {
       </section>
 
       {/* SYSTEM */}
-      <section className="system-section">
+      <section className="system-section section">
         <div className="container">
 
           <div className="system-container">
@@ -211,7 +211,7 @@ export default function Home() {
       </section>
 
       {/* PRICING */}
-      <section className="pricing-section">
+      <section className="pricing-section section">
         <div className="container">
 
           <h2 className="section-title">Pricing</h2>
@@ -285,7 +285,7 @@ export default function Home() {
       </section>
 
       {/* CTA */}
-      <section className="cta-section">
+      <section className="cta-section section">
         <div className="container">
           <div className="cta-container">
 
