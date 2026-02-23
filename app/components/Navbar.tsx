@@ -22,6 +22,13 @@ export default function Navbar() {
 
         {/* MOBILE MENU */}
         <div className={`mobile-menu ${menuOpen ? "active" : ""}`}>
+
+          <button
+            className="menu-close"
+            onClick={() => setMenuOpen(false)}
+          >
+          ×
+          </button>
           
           <a href="#how" onClick={() => setMenuOpen(false)}>How it works</a>
           <a href="#who" onClick={() => setMenuOpen(false)}>Who it's for</a>
