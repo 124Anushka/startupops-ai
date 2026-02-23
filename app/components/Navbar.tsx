@@ -4,7 +4,13 @@ import { useState } from "react";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
-
+  useEffect(() => {
+    if (menuOpen) {
+      document.body.classList.add("menu-open");
+    } else {
+      document.body.classList.remove("menu-open");
+    }
+  }, [menuOpen]);
   return (
     <nav className="navbar">
       <div className="container nav-inner">
