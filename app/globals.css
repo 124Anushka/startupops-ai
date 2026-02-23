@@ -577,6 +577,8 @@ p {
     transition: 0.3s;
     z-index: 999;
     overflow: hidden;
+    overflow-y: auto;
+    overscroll-behavior: contain;
   }
   
   .mobile-menu::before {
