@@ -537,5 +537,22 @@ p {
     grid-template-columns: 1fr;
     gap: 30px;
   }
+  
+  /* NAVBAR MOBILE */
+  .nav-inner{
+    flex-direction: row;
+    align-items: center;
+  }
 
+  .nav-links{
+    display: none;
+  }
+  .nav-right{
+    gap: 10px;
+  }
+
+  .btn-primary {
+   padding: 10px 14px;
+   font-size: 14px; 
+  }  
 }
