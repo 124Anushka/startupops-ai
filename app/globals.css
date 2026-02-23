@@ -1,8 +1,8 @@
 /* ========================= */
 /* RESET */
 /* ========================= */
-main > * {
-  margin-bottom: 80px;
+section{
+  overlow-x: hidden;
 }
 * {
   margin: 0;
@@ -15,6 +15,7 @@ html, body {
   background: #fff;
   color: #111;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 /* ========================= */
@@ -470,7 +471,9 @@ p {
     max-width: 100%;
     padding: 0 16px;
   }
-  
+ * {
+   max-width: 100%;
+ } 
   .hero h1{
     font-size: 32px;
     line-height:  1.2;
