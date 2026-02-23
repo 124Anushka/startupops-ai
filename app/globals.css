@@ -555,20 +555,29 @@ p {
     right: -100%;
     width: 100%;
     height: 100vh;
-    
-    background: #fff;
-    background-filter: blur(8px);
-    z-index: 999;
+
+  /* GLASS BACKGROUND */
+    background: rgba(255, 255, 255, 0.75);
+    background-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
     
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
     gap: 30px;
     
     transition: 0.3s;
     z-index: 999;
+    overflow: hidden;
+  }
+  
+  .mobile-menu::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: -1;
   }
 
   .mobile-menu.active {
@@ -598,13 +607,15 @@ p {
     margin-top: 20px;
     width: 80%;
     text-align: center;  
-  }    
-}
+    color: #fff;
+  }  
 
-/* PREVENT OVERFLOW */
+  /* PREVENT OVERFLOW */
   body {
     overflow-x: hidden;
   }
+}
+
 
 
   /* overlay */
