@@ -542,7 +542,7 @@ p {
   .nav-inner {
     flex-direction: column;
     align-items: flex-start;
-    gap: 12px;
+    gap: 16px;
   }
 .nav-top{
   width: 100%;
@@ -561,12 +561,13 @@ p {
   .nav-right {
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px 16px;
   }
 
   .btn-primary {
-   padding: 10px 14px;
-   font-size: 14px; 
+   width: 100%;
+   text-align: center; 
   }  
 }
