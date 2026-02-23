@@ -11,11 +11,11 @@ section{
 }
 
 html, body {
+  overflow-x: hidden;
   font-family: -apple-system, BlinkMacSystemFont, "Inter", sans-serif;
   background: #fff;
   color: #111;
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 
 /* ========================= */
@@ -537,12 +537,23 @@ p {
     grid-template-columns: 1fr;
     gap: 30px;
   }
+  .how-container,
+  .system-container,
+  .who-grid,
+  .pricing-grid{
+    width: 100%
+    overflow: hidden;
+  }
+
+
+
+
   
   /* NAVBAR MOBILE */
   .nav-inner {
     flex-direction: column;
     align-items: flex-start;
-    gap: 16px;
+    gap: 12px;
   }
 .nav-top{
   width: 100%;
@@ -562,8 +573,7 @@ p {
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    gap: 12px 16px;
+    gap: 10px 16px;
   }
 
   .btn-primary {
