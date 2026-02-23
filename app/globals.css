@@ -541,7 +541,7 @@ p {
   .system-container,
   .who-grid,
   .pricing-grid{
-    width: 100%
+    width: 100%;
     overflow: hidden;
   }
 
