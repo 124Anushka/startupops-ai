@@ -539,16 +539,25 @@ p {
   }
   
   /* NAVBAR MOBILE */
-  .nav-inner{
-    flex-direction: row;
-    align-items: center;
+  .nav-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
   }
 
-  .nav-links{
-    display: none;
+  .nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
   }
-  .nav-right{
-    gap: 10px;
+  nav-links a {
+    font-size: 14px;
+  }
+  .nav-right {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .btn-primary {
