@@ -18,6 +18,14 @@ export default function Navbar() {
         {/* LOGO */}
         <a href="/" className="logo">StartupOps AI</a>
 
+        {/* DESKTOP LINKS */}
+        <div className="nav-links">
+          <a href="#how">How it works</a>
+          <a href= "#who">Who it's for</a>
+          <a href= "#pricing">Pricing</a>
+          <a href= "#contact">Contact</a>
+        </div>
+
         {/* HAMBURGER */}
         <div 
           className="hamburger" 
