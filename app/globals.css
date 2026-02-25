@@ -642,9 +642,10 @@ p {
     height: 100vh;
 
   /* GLASS BACKGROUND */
-    background: rgba(255, 255, 255, 0.75);
-    background-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
+    background: rgba(255, 255, 255, 0.96);
+    color: #111;
+    background-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
     
     display: flex;
     flex-direction: column;
@@ -686,19 +687,18 @@ p {
   /* LINKS */
   .mobile-menu a {
     text-decoration: none;
-    color: #111;
     font-size: 22px;
   }
 
   .mobile-cta {
     background: #111;
+    color: #fff;
     margin-top: 30px;
     padding: 16px;
     border-radius: 10px;
     display: block;
     width: 80%;
     text-align: center;  
-    color: #fff;
     font-weight: 500;
   }  
 
