@@ -696,7 +696,7 @@ p {
 
   .mobile-cta {
     background: #111;
-    color: #fff;
+    color: #fff !important;
     margin-top: 30px;
     padding: 16px;
     border-radius: 10px;
@@ -704,7 +704,11 @@ p {
     width: 80%;
     text-align: center;  
     font-weight: 500;
-  }  
+  } 
+  .mobile-cta:visited,
+  .mobile-cta:active {
+    color: #fff !important;
+   }
 
   /* PREVENT OVERFLOW */
   body {
