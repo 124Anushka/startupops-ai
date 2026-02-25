@@ -25,7 +25,7 @@ export default function Footer() {
           <Link href="/privacy-policy">Privacy Policy</Link>
           <Link href="/terms-and-conditions">Terms & Conditions</Link>
           <Link href="/refund-policy">Refund Policy</Link>
-          <Link href="/accessibilty-statement">Accessibility</Link>
+          <Link href="/accessibility-statement">Accessibility</Link>
         </div>
 
       </div>
