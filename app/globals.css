@@ -672,6 +672,88 @@ p {
 }
 
 /* ========================= */
+/* LEGAL PAGES (GLOBAL) */
+/* ========================= */
+
+.legal-page {
+  padding: 80px 20px;
+  background: #fff;
+}
+
+.legal-container {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+/* Back link */
+.back-link {
+  display: inline-block;
+  margin-bottom: 24px;
+  font-size: 14px;
+  color: #555;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  color: #111;
+}
+
+/* Main title */
+.legal-container h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  letter-spacing: -0.5px;
+}
+
+/* Section headings */
+.legal-container h2 {
+  font-size: 22px;
+  margin-top: 32px;
+  margin-bottom: 10px;
+}
+
+/* Sub headings (Contact etc.) */
+.legal-container h3 {
+  font-size: 18px;
+  margin-top: 30px;
+  margin-bottom: 8px;
+}
+
+/* Paragraphs */
+.legal-container p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #444;
+  margin-bottom: 14px;
+}
+
+/* Lists */
+.legal-container ul {
+  padding-left: 20px;
+  margin-bottom: 16px;
+}
+
+.legal-container li {
+  margin-bottom: 8px;
+  font-size: 15px;
+  color: #444;
+  line-height: 1.6;
+}
+
+/* Last updated */
+.last-updated {
+  font-size: 13px;
+  color: #777;
+  margin-bottom: 24px;
+}
+
+/* Divider */
+.legal-container hr {
+  margin: 40px 0;
+  border: none;
+  border-top: 1px solid #eee;
+}
+/* ========================= */
 /* RESPONSIVE */
 /* ========================= */
 
