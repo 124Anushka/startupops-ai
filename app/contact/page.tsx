@@ -3,7 +3,7 @@ export default function ContactPage() {
     <main>
 
       {/* HERO */}
-      <section className="section">
+      <section id="contact" className="section">
         <div className="container center">
           <h1>Get Early Access</h1>
 
