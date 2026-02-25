@@ -1,6 +1,6 @@
 export default function PrivacyPolicy() {
   return (
-    <main className=""legal-page>
+    <main className="legal-page">
     <div className="container privacy-container">
 
       <a href="/" className="back-link">← Back to Home</a>
