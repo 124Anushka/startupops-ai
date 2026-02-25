@@ -265,10 +265,7 @@ export default function Home() {
         </ul>
 
         <a
-  href="https://docs.google.com/forms/d/e/1FAIpQLSemCbzt7rmajlYoIOtmVcLHTPgUUxJ0Dl8K8JPSc45Fis9GCQ/viewform"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="btn-primary full-btn"
+  href="/waitlist" className="btn-primary full-btn"
 >
   Join Waitlist
 </a>
