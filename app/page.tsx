@@ -267,7 +267,7 @@ export default function Home() {
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSemCbzt7rmajlYoIOtmVcLHTPgUUxJ0Dl8K8JPSc45Fis9GCQ/viewform?usp=sharing&ouid=106770968020657210709" className="btn-outline full-btn"
           target="_blank"
           rel="noopener noreferrer"
-          className="btn-primary"
+          className="btn-primary full-btn"
         >
           Join Waitlist
         </a>
