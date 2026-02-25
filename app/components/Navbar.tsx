@@ -20,8 +20,8 @@ export default function Navbar() {
 
         {/* DESKTOP LINKS */}
         <div className="nav-links">
-          <a href="#how">How it works</a>
-          <a href= "#who">Who it's for</a>
+          <a href="#how-it-works">How it works</a>
+          <a href= "#who-it's-for">Who it's for</a>
           <a href= "#pricing">Pricing</a>
           <Link href= "/contact">Contact</Link>
         </div>
@@ -44,8 +44,8 @@ export default function Navbar() {
           ×
           </button>
           
-          <a href="#how" onClick={() => setMenuOpen(false)}>How it works</a>
-          <a href="#who" onClick={() => setMenuOpen(false)}>Who it's for</a>
+          <a href="#how-it-works" onClick={() => setMenuOpen(false)}>How it works</a>
+          <a href="#who-it's-for" onClick={() => setMenuOpen(false)}>Who it's for</a>
           <a href="#pricing" onClick={() => setMenuOpen(false)}>Pricing</a>
           <a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a>
 
