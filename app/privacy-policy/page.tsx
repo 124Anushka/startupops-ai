@@ -124,5 +124,6 @@ export default function PrivacyPolicy() {
       </p>
 
     </div>
+    </main>
   );
 }
