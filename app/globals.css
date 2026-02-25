@@ -753,6 +753,19 @@ p {
   border: none;
   border-top: 1px solid #eee;
 }
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+}
+ .logo img {
+   height: 36px;
+   width: auto;
+   object-fit: contain;
+ }
+
+
 /* ========================= */
 /* RESPONSIVE */
 /* ========================= */
