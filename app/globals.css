@@ -756,7 +756,7 @@ p {
 .logo {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 4px;
   font-weight: 600;
 }
  .logo img {
