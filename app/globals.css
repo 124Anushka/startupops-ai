@@ -644,8 +644,8 @@ p {
   /* GLASS BACKGROUND */
     background: rgba(255, 255, 255, 0.96);
     color: #111;
-    background-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
+    background-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
     
     display: flex;
     flex-direction: column;
