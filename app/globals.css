@@ -61,6 +61,23 @@ html, body {
   color: #111;
 }
 
+/* DESKTOP LINKS */
+
+.nav-links {
+  display: flex;
+  gap: 28px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #444;
+  font-size: 15px;
+  font-weight: 500;
+}
+.nav-links a:hover {
+  color: #111;
+}
+
 /* hide hamburger on desktop */
 .hamburger {
   display: none;
@@ -606,6 +623,10 @@ p {
    display: none;
  }
 
+  .nav-links{
+    display: none;
+  }
+  
  .hamburger {
    display: block;
    font-size: 26px;
