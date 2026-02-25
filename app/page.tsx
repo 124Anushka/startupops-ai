@@ -21,7 +21,7 @@ export default function Home() {
               Try StartupOps AI
             </a>
 
-            <a href="#how" className="btn-secondary">
+            <a href="#how-it-works" className="btn-secondary">
               See how it works
             </a>
           </div>
