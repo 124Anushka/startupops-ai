@@ -13,10 +13,10 @@ export default function Footer() {
         {/* CENTER */}
         <div className="footer-links">
           <h4>Company</h4>
-          <Link href="/">About</Link>
-          <Link href="/how">How it works</Link>
-          <Link href="/pricing">Pricing</Link>
-          <Link href="/contact">Contact</Link>
+          <a href="/">About</a>
+          <a href="/how">How it works</a>
+          <a href="/pricing">Pricing</a>
+          <a href="/contact">Contact</a>
         </div>
 
         {/* RIGHT */}
