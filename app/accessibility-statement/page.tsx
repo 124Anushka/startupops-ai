@@ -1,5 +1,6 @@
 export default function AccessibilityStatement() {
   return (
+    <main className="legal-page">
     <div className="legal-container">
       
       <a href="/" className="back-link">← Back to Home</a>
@@ -64,5 +65,6 @@ export default function AccessibilityStatement() {
       </p>
 
     </div>
+    </main>
   );
 }
