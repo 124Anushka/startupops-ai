@@ -1,6 +1,7 @@
 export default function RefundPolicy() {
   return (
-    <div className="legal-container">
+    <main className="legal-page">
+    <div className="container legal-container">
 
       <a href="/" className="back-link">← Back to Home</a>
 
@@ -58,12 +59,13 @@ export default function RefundPolicy() {
 
       <hr />
 
-      <div className="contact">
+      
         <h2>Contact Us</h2>
-        <p>Email: refunds@startupops-ai.com</p>
+        <p>Email: refunds@startupopsai.com</p>
         <p>Location: India</p>
-      </div>
+     
 
     </div>
+    </main>
   );
 }
