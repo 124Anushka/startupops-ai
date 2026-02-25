@@ -77,13 +77,13 @@ export default function TermsPage() {
 
         <hr />
 
-        <h3>Contact Us</h3>
+        <h2>Contact Us</h2>
         <p>
           If you have questions about these Terms:
         </p>
 
         <p>
-          Email: legal@startupops-ai.com <br />
+          Email: legal@startupopsai.com <br />
           Location: India
         </p>
 
