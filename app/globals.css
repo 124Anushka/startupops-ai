@@ -522,6 +522,75 @@ p {
   margin-top: 20px;
 }
 
+/* ========================= */
+/* LEGAL PAGE CLEAN FIX */
+/* ========================= */
+
+.legal-page {
+  padding: 60px 20px;
+}
+
+.privacy-container {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+/* Headings */
+.privacy-container h1 {
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+
+.privacy-container h2 {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.privacy-container h3 {
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 6px;
+  color: #222;
+}
+
+/* Paragraphs */
+.privacy-container p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #444;
+  margin-bottom: 12px;
+}
+
+/* Lists */
+.privacy-container ul {
+  padding-left: 18px;
+  margin-bottom: 16px;
+}
+
+.privacy-container li {
+  font-size: 15px;
+  margin-bottom: 6px;
+  color: #444;
+}
+
+/* Back link */
+.back-link {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #666;
+}
+
+.back-link:hover {
+  color: #111;
+}
+
+/* Divider */
+.privacy-container hr {
+  margin: 30px 0;
+}
+
 
 /* ========================= */
 /* RESPONSIVE */
