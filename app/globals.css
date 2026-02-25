@@ -688,6 +688,10 @@ p {
   .mobile-menu a {
     text-decoration: none;
     font-size: 22px;
+    color: #111;
+  }
+  .mobile-menu a:visited {
+    color: #111;
   }
 
   .mobile-cta {
