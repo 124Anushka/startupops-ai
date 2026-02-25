@@ -3,7 +3,7 @@ export default function Home() {
     <main>
 
       {/* HERO */}
-      <section className="hero">
+      <section id="about" className="hero">
         <div className="container center">
           <h1>Clarity before execution.</h1>
 
