@@ -16,7 +16,10 @@ export default function Navbar() {
       <div className="container nav-inner">
 
         {/* LOGO */}
-        <a href="/" className="logo">StartupOps AI</a>
+        <a href="/" className="logo">
+          <img src="/logo.png" alt="logo" />
+          <span>StartupOps AI</span>
+        </a>
 
         {/* DESKTOP LINKS */}
         <div className="nav-links">
