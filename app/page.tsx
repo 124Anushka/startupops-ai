@@ -33,7 +33,7 @@ export default function Home() {
       </section>
 
       {/* HOW IT WORKS */}
-      <section id= "how" className="how-section section">
+      <section id= "how-it-works" className="how-section section">
         <div className="container">
 
           <h2 className="section-title">How it works</h2>
@@ -119,7 +119,7 @@ export default function Home() {
       </section>
 
       {/* WHO IT’S FOR */}
-      <section className="who-section section">
+      <section id="who-it's-for" className="who-section section">
         <div className="container">
 
           <h2 className="section-title">Who it's for</h2>
