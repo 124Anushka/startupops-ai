@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function Footer() {
   return (
     <footer className="footer">
@@ -21,10 +22,10 @@ export default function Footer() {
         {/* RIGHT */}
         <div className="footer-links">
           <h4>Legal</h4>
-          <a href="/privacy-policy">Privacy Policy</a>
-          <a href="/terms-and-conditions">Terms & Conditions</a>
-          <a href="/refund-policy">Refund Policy</a>
-          <a href="/accessibilty-statement">Accessibility</a>
+          <Link href="/privacy-policy">Privacy Policy</a>
+          <Link href="/terms-and-conditions">Terms & Conditions</a>
+          <Link href="/refund-policy">Refund Policy</a>
+          <Link href="/accessibilty-statement">Accessibility</a>
         </div>
 
       </div>
