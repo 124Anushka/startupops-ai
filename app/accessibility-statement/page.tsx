@@ -1,7 +1,7 @@
 export default function AccessibilityStatement() {
   return (
     <main className="legal-page">
-    <div className="legal-container">
+    <div className="container legal-container">
       
       <a href="/" className="back-link">← Back to Home</a>
 
