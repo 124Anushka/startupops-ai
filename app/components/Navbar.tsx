@@ -1,5 +1,5 @@
 "use client";
-
+import Link from "next/link";
 import { useState, useEffect } from "react";
 
 export default function Navbar() {
@@ -23,7 +23,7 @@ export default function Navbar() {
           <a href="#how">How it works</a>
           <a href= "#who">Who it's for</a>
           <a href= "#pricing">Pricing</a>
-          <a href= "#contact">Contact</a>
+          <Link href= "/contact">Contact</Link>
         </div>
 
         {/* HAMBURGER */}
