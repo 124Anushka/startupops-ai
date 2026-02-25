@@ -16,7 +16,7 @@ export default function Footer() {
           <a href="/#about">About</a>
           <a href="/#how">How it works</a>
           <a href="/#pricing">Pricing</a>
-          <a href="/#contact">Contact</a>
+          <Link href="/contact">Contact</Link>
         </div>
 
         {/* RIGHT */}
