@@ -21,10 +21,10 @@ export default function Footer() {
         {/* RIGHT */}
         <div className="footer-links">
           <h4>Legal</h4>
-          <a href="#">Privacy Policy</a>
-          <a href="#">Terms & Conditions</a>
-          <a href="#">Refund Policy</a>
-          <a href="#">Accessibility</a>
+          <a href="/privacy-policy">Privacy Policy</a>
+          <a href="/terms-and-conditions">Terms & Conditions</a>
+          <a href="/refund-policy">Refund Policy</a>
+          <a href="/accessibilty">Accessibility</a>
         </div>
 
       </div>
