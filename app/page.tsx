@@ -8,7 +8,11 @@ export default function Home() {
           <h1>Clarity before execution.</h1>
 
           <p className="subtitle">
-            Structured thinking for founders and operators who refuse chaotic execution.
+            Execution is easy. Knowing what to execute is the real problem.
+          </p>
+
+          <p className="subtitle-secondary">
+            StartupOps AI helps you make high-quality decisions before you commit time, money, or code.
           </p>
 
           <div className="hero-buttons">
