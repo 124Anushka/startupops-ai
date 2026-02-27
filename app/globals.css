@@ -821,7 +821,7 @@ p {
     gap: 12px;
   }
   .section {
-    padding: 40px 0;
+    padding: 50px 0;
   }
 
   .section-title{
@@ -894,7 +894,11 @@ p {
     overflow: hidden;
   }
 
-  
+
+   /* PREVENT OVERFLOW */
+  body {
+    overflow-x: hidden;
+  }
   /* NAVBAR MOBILE */
   
  .nav-right {
