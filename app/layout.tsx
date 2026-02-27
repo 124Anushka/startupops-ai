@@ -4,8 +4,6 @@ import Footer from "./components/Footer"
 import Script from "next/script"
 
 export const metadata = {
-  title: "StartupOps AI",
-  description: "Clarity before execution",
   icons: {
     icon: "/favicon.png",
   },
