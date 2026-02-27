@@ -3,6 +3,14 @@ import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
 import Script from "next/script"
 
+export const metadata = {
+  title: "StartupOps AI",
+  description: "Clarity before execution",
+  icons: {
+    icon: "/favicon.png",
+  },
+};
+
 export default function RootLayout({
   children,
 }: {
