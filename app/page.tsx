@@ -341,7 +341,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Start free in ChatGPT
+              Diagnose Your Startup in 2 Minutes
             </a>
 
           </div>
