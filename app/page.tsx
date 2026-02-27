@@ -36,6 +36,35 @@ export default function Home() {
         </div>
       </section>
 
+
+      {/* TRUST / PROOF */}
+<section className="section">
+  <div className="container center">
+
+    <p className="proof-line">
+      Used by early-stage founders to turn unclear ideas into execution-ready decisions.
+    </p>
+
+    <div className="proof-grid">
+      <div className="proof-card">
+        <h3>Clarity</h3>
+        <p>Identify what actually matters before you act</p>
+      </div>
+
+      <div className="proof-card">
+        <h3>Focus</h3>
+        <p>Eliminate noise and prioritize high-leverage actions</p>
+      </div>
+
+      <div className="proof-card">
+        <h3>Execution</h3>
+        <p>Move forward with confidence, not guesswork</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
       {/* HOW IT WORKS */}
       <section id= "how-it-works" className="how-section section">
         <div className="container">
