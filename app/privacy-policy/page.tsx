@@ -119,7 +119,7 @@ export default function PrivacyPolicy() {
       <h2>Contact Us</h2>
       <p>
         Privacy Team <br />
-        Email: privacy@startupops-ai.com <br />
+        Email: privacy@startupopsai.com <br />
         Location: India
       </p>
 
