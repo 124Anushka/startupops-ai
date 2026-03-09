@@ -53,7 +53,7 @@ export default function Navbar() {
           <a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a>
 
           <a
-            href="https://chatgpt.com/g/g-69620ff898308191a9da31cfffef153c3-startupops-ai"
+            href="https://chatgpt.com/g/g-69620ff898308191a9da31cfffe153c3-startupops-ai"
             className="btn-primary mobile-cta"
             target="_blank"
             rel="noopener noreferrer"
