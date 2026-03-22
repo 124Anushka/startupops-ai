@@ -75,7 +75,7 @@ export default function Home() {
   </div>
 </section>
       
-      <p className="micro-proof">
+<p className="built-line">
   Built using real startup patterns across product, growth, retention & monetization
 </p>
 
