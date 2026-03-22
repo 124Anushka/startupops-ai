@@ -40,7 +40,7 @@ export default function Home() {
 <p className="proof-line">
   Most founders misdiagnose their real bottleneck.
 </p>
-/* DIAGNOSE */
+
   <div className="diagnosis-card">
   <div className="diagnosis-header">
     <span>🧠 StartupOps Diagnosis</span>
