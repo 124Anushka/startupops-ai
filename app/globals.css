@@ -155,6 +155,13 @@ p {
   color: #777;
 }
 
+.built-line {
+  text-align: center;
+  font-size: 13px;
+  color: #999;
+  margin: 60px auto 20px;
+  max-width: 700px;
+}
 /* ========================= */
 /* BUTTONS */
 /* ========================= */
@@ -215,10 +222,11 @@ p {
   font-weight: 700;
 }
 .tagline {
-  font-size: 14px;
-  color: #888;
-  margin-bottom: 10px;
-  letter-spacing: 1px;
+  font-size: 17px;
+  color: #666;
+  margin-bottom: 14px;
+  letter-spacing: 1.2px;
+  font-weight: 500;
 }
 
 .hero-buttons {
@@ -299,7 +307,6 @@ p {
   font-size: 15px;
   color: #111;
 }
-
 
 
 
@@ -503,11 +510,16 @@ p {
   transform: translateY(-6px);
   box-shadow: 0 20px 40px rgba(0,0,0,0.08);
 }
+.pricing-card .plan-tag {
+  margin-top: 10px;
+}
 
 .featured {
   background: #111;
   color: #fff;
   border: none;
+  transform: scale(1.03);
+  box-shadow: 0 25px 60px rgba(0,0,0,0.2);
 }
 
 .price {
