@@ -8,7 +8,7 @@ export default function Home() {
           <h1>Clarity before execution.</h1>
 
           <p className="subtitle">
-            Execution is easy. Knowing what to execute is the real problem.
+            Find the one thing blocking your startup — in 2 minutes.
           </p>
 
           <p className="subtitle-secondary">
@@ -22,7 +22,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Try StartupOps AI
+              Diagnose My Startup
             </a>
 
             <a href="#how-it-works" className="btn-secondary">
