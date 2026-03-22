@@ -12,7 +12,7 @@ export default function Home() {
           </p>
 
           <p className="subtitle-secondary">
-            StartupOps AI helps you make high-quality decisions before you commit time, money, or code.
+             Most founders work hard on the wrong problem. StartupOps AI shows you what actually matters.
           </p>
 
           <div className="hero-buttons">
@@ -35,6 +35,41 @@ export default function Home() {
           </p>
         </div>
       </section>
+
+
+
+  <div className="diagnosis-card">
+  <div className="diagnosis-header">
+    <span>🧠 StartupOps Diagnosis</span>
+    <span className="confidence">75% confidence</span>
+  </div>
+
+  <div className="diagnosis-section">
+    <p className="label">Constraint</p>
+    <p className="value">Retention</p>
+  </div>
+
+  <div className="diagnosis-section">
+    <p className="label">Why</p>
+    <p className="value">
+      Users try the product but don’t return after first use
+    </p>
+  </div>
+
+  <div className="diagnosis-section">
+    <p className="label">Focus</p>
+    <p className="value">
+      Improve repeat value before increasing acquisition
+    </p>
+  </div>
+
+  <div className="diagnosis-section">
+    <p className="label">Next Step</p>
+    <p className="value">
+      What % of users return within 7 days?
+    </p>
+  </div>
+</div>
 
 
       {/* TRUST / PROOF */}
