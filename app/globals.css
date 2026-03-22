@@ -517,8 +517,12 @@ p {
 
 .price-note {
   font-size: 13px;
+  color: #bbb;
+  margin-top: 6px;
+  margin-bottom: 12px;
+}
+.featured .price-note {
   color: #aaa;
-  margin-top: -10px;
 }
 .card-shadow {
   box-shadow: 0 10px 30px rgba(0,0,0,0.05);
