@@ -32,75 +32,43 @@ export default function Home() {
             </a>
           </div>
 
-          <p className="small-text">
-            Used by early-stage founders to identify their real bottleneck before scaling.
-          </p>
+          <p className="micro-proof">
+  No signup required • 2-minute diagnosis • Instant clarity
+</p>
         </div>
       </section>
 
 
-<p className="proof-line">
-  Most founders misdiagnose their real bottleneck.
-</p>
-
-  <div className="diagnosis-card">
-  <div className="diagnosis-header">
-    <span>🧠 StartupOps Diagnosis</span>
-    <span className="confidence">75% confidence</span>
-  </div>
-
-  <div className="diagnosis-section">
-    <p className="label">Constraint</p>
-    <p className="value">Retention</p>
-  </div>
-
-  <div className="diagnosis-section">
-    <p className="label">Why</p>
-    <p className="value">
-      Users try the product but don’t return after first use
+      
+<section className="section">
+  <div className="container center">
+    <p className="proof-line">
+      Used by early-stage founders to identify their real bottleneck before scaling.
     </p>
   </div>
+</section>
 
-  <div className="diagnosis-section">
-    <p className="label">Focus</p>
-    <p className="value">
-      Improve repeat value before increasing acquisition
-    </p>
-  </div>
 
-  <div className="diagnosis-section">
-    <p className="label">Next Step</p>
-    <p className="value">
-      What % of users return within 7 days?
-    </p>
-  </div>
-</div>
-<p className="small-text">
-  Built on real startup constraint patterns across product, growth, retention, and monetization.
-</p>
 
       {/* TRUST / PROOF */}
 <section className="section">
   <div className="container center">
 
-    <p className="proof-line">
- Used by early-stage founders to identify their real bottleneck before scaling.
-    </p>
 
     <div className="proof-grid">
       <div className="proof-card">
         <h3>Clarity</h3>
-        <p>Identify what actually matters before you act</p>
+        <p>Identify the real constraint before you act</p>
       </div>
 
       <div className="proof-card">
         <h3>Focus</h3>
-        <p>Eliminate noise and prioritize high-leverage actions</p>
+        <p>Prioritize high-leverage decisions, not noise</p>
       </div>
 
       <div className="proof-card">
         <h3>Execution</h3>
-        <p>Move forward with confidence, not guesswork</p>
+        <p>Move with confidence based on clear signals</p>
       </div>
     </div>
 
@@ -294,7 +262,7 @@ export default function Home() {
       <div className="section-line"></div>
 
       <p className="pricing-sub">
-        Payments open next week. Early users get priority pricing.
+        Early access pricing for first users.
       </p>
     </div>
 
@@ -342,7 +310,7 @@ export default function Home() {
         <a
   href="/waitlist" className="btn-primary full-btn"
 >
-  Join Waitlist
+  Get Early Access
 </a>
       </div>
 
