@@ -74,6 +74,10 @@ export default function Home() {
 
   </div>
 </section>
+      
+      <p className="micro-proof">
+  Built using real startup patterns across product, growth, retention & monetization
+</p>
 
       {/* HOW IT WORKS */}
       <section id= "how-it-works" className="how-section section">
