@@ -199,6 +199,12 @@ p {
   text-align: center;
   padding-top: 120px;
 }
+.tagline {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
+}
 
 .hero-buttons {
   margin-top: 30px;
