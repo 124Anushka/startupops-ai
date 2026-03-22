@@ -299,8 +299,11 @@ export default function Home() {
       <div className="pricing-card featured">
         <div className="badge">Limited early access</div>
         <div className="popular">MOST POPULAR</div>
+        
         <h3>Starter</h3>
+        
         <div className="price">₹499 <span>/ month</span></div>
+        
         <p className="price-note">Early access price (increases soon)</p>
 
         <p className="plan-tag">
