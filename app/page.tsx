@@ -5,11 +5,13 @@ export default function Home() {
       {/* HERO */}
       <section id="about" className="hero">
         <div className="container center">
-          <h1>Clarity before execution.</h1>
+          <p className="tagline">
+              Clarity before execution.
+            </p>
 
-          <p className="subtitle">
-            Find the one thing blocking your startup — in 2 minutes.
-          </p>
+            <h1>
+             Find the one thing blocking your startup — in 2 minutes.
+              </h1>
 
           <p className="subtitle-secondary">
              Most founders work hard on the wrong problem. StartupOps AI shows you what actually matters.
@@ -22,7 +24,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Diagnose My Startup
+              Diagnose My Startup →
             </a>
 
             <a href="#how-it-works" className="btn-secondary">
@@ -31,7 +33,7 @@ export default function Home() {
           </div>
 
           <p className="small-text">
-            Currently runs inside ChatGPT while we build the native platform.
+            Used by early-stage founders to identify their real bottleneck before scaling.
           </p>
         </div>
       </section>
@@ -73,14 +75,16 @@ export default function Home() {
     </p>
   </div>
 </div>
-
+<p className="small-text">
+  Built on real startup constraint patterns across product, growth, retention, and monetization.
+</p>
 
       {/* TRUST / PROOF */}
 <section className="section">
   <div className="container center">
 
     <p className="proof-line">
-      Used by early-stage founders to turn unclear ideas into execution-ready decisions.
+ Used by early-stage founders to identify their real bottleneck before scaling.
     </p>
 
     <div className="proof-grid">
