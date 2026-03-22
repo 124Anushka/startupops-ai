@@ -293,6 +293,7 @@ export default function Home() {
       </div>
 
       <div className="pricing-card featured">
+        <div className="badge">Limited early access</div>
         <div className="popular">MOST POPULAR</div>
         <h3>Starter</h3>
         <div className="price">₹499 <span>/ month</span></div>
@@ -343,7 +344,7 @@ export default function Home() {
         <div className="container">
           <div className="cta-container">
 
-            <h2>Think clearly before you execute.</h2>
+            <h2>Stop guessing. Start executing with clarity.</h2>
 
             <a
               href="https://chatgpt.com/g/g-69620ff898308191a9da31cfffe153c3-startupops-ai"
