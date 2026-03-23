@@ -88,23 +88,21 @@ export default function Home() {
           {/* 01 */}
           <div className="how-block">
             <span className="how-number">01</span>
-            <h3>Problem Diagnosis Before Action</h3>
+            <h3>Diagnose Before You Execute</h3>
 
             <div className="how-grid">
               <div>
                 <span className="label">DIAGNOSIS</span>
                 <p>
                   Most teams execute fast but think shallow. They react to visible problems,
-                  not underlying constraints. Signals are noisy, opinions conflict,
-                  and effort gets spent on the wrong layer of the system.
+                  not underlying constraints - which leads to wasted effort.
                 </p>
               </div>
 
               <div>
                 <span className="label">BENEFIT</span>
                 <p>
-                  StartupOps AI forces clarity before motion. It isolates the real constraint
-                  behind the situation, ensuring every action targets what actually moves outcomes.
+                  StartupOps AI identifies the real constraint first, so every action targets what actually moves outcomes.
                 </p>
               </div>
             </div>
@@ -113,24 +111,20 @@ export default function Home() {
           {/* 02 */}
           <div className="how-block">
             <span className="how-number">02</span>
-            <h3>Constraint-Aware Decision Making</h3>
+            <h3>Decision Based on Reality</h3>
 
             <div className="how-grid">
               <div>
                 <span className="label">DIAGNOSIS</span>
                 <p>
-                  Most plans assume ideal conditions. In reality, time is limited,
-                  capital is constrained, and teams operate under pressure.
-                  This gap creates fragile strategies that fail under execution.
+                  Most strategies assume ideal conditions. In reality, time, capital, and focus are limited.
                 </p>
               </div>
 
               <div>
                 <span className="label">BENEFIT</span>
                 <p>
-                  Every recommendation is grounded in your actual constraints.
-                  Decisions become realistic, defensible, and executable —
-                  not optimistic guesses.
+                  Every recommendation is grounded in your actual constraints — making decisions realistic and executable.
                 </p>
               </div>
             </div>
@@ -139,24 +133,20 @@ export default function Home() {
           {/* 03 */}
           <div className="how-block">
             <span className="how-number">03</span>
-            <h3>Execution Readiness & Trade-Off Clarity</h3>
+            <h3>Execution With Clarity</h3>
 
             <div className="how-grid">
               <div>
                 <span className="label">DIAGNOSIS</span>
                 <p>
-                  Teams either execute too early and waste resources,
-                  or delay too long and lose momentum. There is no clear signal
-                  for when action is justified.
+                  Teams either act too early or delay too long. There’s no clear signal for when to move.
                 </p>
               </div>
 
               <div>
                 <span className="label">BENEFIT</span>
                 <p>
-                  StartupOps AI clarifies priorities, trade-offs, and timing.
-                  Execution happens only when it delivers leverage —
-                  not noise, not urgency, not pressure.
+                  StartupOps AI clarifies priorities and trade-offs so execution happens only when it creates leverage.
                 </p>
               </div>
             </div>
@@ -164,6 +154,11 @@ export default function Home() {
 
         </div>
       </section>
+
+
+      <p className="section-sub">
+  Built for people making high-stakes decisions with limited clarity
+</p>
 
       {/* WHO IT’S FOR */}
       <section id="who-it's-for" className="who-section section">
@@ -184,8 +179,7 @@ export default function Home() {
               <div className="card-divider"></div>
 
               <p className="who-sub">
-                “StartupOps AI acts as a thinking partner that isolates your real constraint,
-                cuts through noise, and ensures every decision compounds — not distracts.”
+                “StartupOps AI acts as your thinking partner — isolating the real constraint so every decision compounds.”
               </p>
             </div>
 
@@ -200,8 +194,7 @@ export default function Home() {
               <div className="card-divider"></div>
 
               <p className="who-sub">
-                “StartupOps AI structures decisions against real constraints,
-                making every roadmap choice defensible, focused, and execution-ready.”
+                “StartupOps AI structures decisions against real constraints - making every roadmap choice defensible, focused, and execution-ready.”
               </p>
             </div>
 
@@ -216,8 +209,7 @@ export default function Home() {
               <div className="card-divider"></div>
 
               <p className="who-sub">
-                “StartupOps AI eliminates chaotic motion and surfaces what actually deserves execution,
-                so effort goes where it creates leverage.”
+                “StartupOps AI eliminates noise and shows what actually deserves execution.”
               </p>
             </div>
 
