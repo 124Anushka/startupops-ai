@@ -61,7 +61,7 @@ export default function RefundPolicy() {
 
       
         <h2>Contact Us</h2>
-        <p>Email: refunds@startupopsai.com</p>
+        <p>Email: startupopsai@gmail.com</p>
         <p>Location: India</p>
      
 
