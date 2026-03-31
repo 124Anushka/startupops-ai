@@ -365,7 +365,7 @@ export default function Home() {
           <h2 className="section-title">Contact</h2>
 
           <a href="mailto:hello@startupopsai.com" className="btn-primary">
-            hello@startupopsai.com
+            startupopsai@gmail.com
           </a>
         </div>
       </section>
