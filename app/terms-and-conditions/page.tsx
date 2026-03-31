@@ -83,7 +83,7 @@ export default function TermsPage() {
         </p>
 
         <p>
-          Email: legal@startupopsai.com <br />
+          Email: startupopsai@gmail.com <br />
           Location: India
         </p>
 
