@@ -37,20 +37,24 @@ export default function ContactPage() {
           </div>
 
           {/* RIGHT */}
-          <form className="contact-form">
-            <label>Name</label>
-            <input type="text" placeholder="Your name" />
+          <form 
+  action="https://formspree.io/f/xbdpydno" 
+  method="POST"
+  className="contact-form"
+>
+  <label>Name</label>
+  <input type="text" name="name" placeholder="Your name" required />
 
-            <label>Email</label>
-            <input type="email" placeholder="your@email.com" />
+  <label>Email</label>
+  <input type="email" name="email" placeholder="your@email.com" required />
 
-            <label>Message</label>
-            <textarea placeholder="Your message..." rows={5}></textarea>
+  <label>Message</label>
+  <textarea name="message" placeholder="Your message..." rows={5} required></textarea>
 
-            <button className="btn-primary full-btn">
-              Get Early Access
-            </button>
-          </form>
+  <button type="submit" className="btn-primary full-btn">
+    Get Early Access
+  </button>
+</form>
 
         </div>
       </section>
