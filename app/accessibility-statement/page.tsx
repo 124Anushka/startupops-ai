@@ -57,7 +57,7 @@ export default function AccessibilityStatement() {
         If you encounter any accessibility barriers or have suggestions for improvement, please contact us:
       </p>
 
-      <p>Email:startupopsai@gmail.com</p>
+      <p>Email: startupopsai@gmail.com</p>
       <p>Location: India</p>
 
       <p>
