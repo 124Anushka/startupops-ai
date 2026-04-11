@@ -5,16 +5,21 @@ export default function Home() {
       {/* HERO */}
       <section id="about" className="hero">
         <div className="container center">
-          <p className="tagline">
-              Clarity before execution.
+          <p className="badge">
+              70+ founders diagnosed • free to try
             </p>
 
             <h1>
-             Find the one thing blocking your startup — in 2 minutes.
+             Most founders don't have an execution problem.<br />
+              They have a diagnosis problem.
               </h1>
 
-          <p className="subtitle-secondary">
-             Most founders work hard on the wrong problem. StartupOps AI shows you what actually matters.
+          <p className= "subtitle"> 
+          StartupOps AI shows you what's actually blocking growth, why nothing is working, and what to fix next.
+          </p>
+
+          <p className="subtitle-strong">
+             2 minutes. One answer. One clear move.
           </p>
 
           <div className="hero-buttons">
@@ -27,14 +32,32 @@ export default function Home() {
               Diagnose My Startup →
             </a>
 
-            <a href="#how-it-works" className="btn-secondary">
-              See how it works
-            </a>
-          </div>
+            
 
           <p className="micro-proof">
-  No signup required • 2-minute diagnosis • Instant clarity
+  No signup. Just answers.
 </p>
+
+<div className="outcomes"> 
+  <p className="outcomes-title">What you'll walk away with:</p> 
+  <ul> <li>"You're targeting the wrong user"</li> 
+    <li>"Your problem isn't painful enough yet"</li> 
+    <li>"Your positioning is unclear"</li> 
+    <li>"You're solving a symptom, not the cause"</li> 
+  </ul> </div> <p className="urgency"> 
+    Every extra week = more time wasted on the wrong thing. </p>
+
+
+<p className= "urgency">
+Every extra week = more time wasted on the wrong thing.
+</>
+
+
+
+
+            
+<p className= "tagline-soft"> Clarity before execution.</p>
+            
         </div>
       </section>
 
