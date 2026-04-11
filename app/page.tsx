@@ -3,63 +3,33 @@ export default function Home() {
     <main>
 
       {/* HERO */}
-      <section id="about" className="hero">
-        <div className="container center">
-          <p className="badge">
-              70+ founders diagnosed • free to try
-            </p>
-
-            <h1>
-             Most founders don't have an execution problem.<br />
-              They have a diagnosis problem.
-              </h1>
-
-          <p className= "subtitle"> 
-          StartupOps AI shows you what's actually blocking growth, why nothing is working, and what to fix next.
-          </p>
-
-          <p className="subtitle-strong">
-             2 minutes. One answer. One clear move.
-          </p>
-
-          <div className="hero-buttons">
-            <a
-              href="https://chatgpt.com/g/g-69620ff898308191a9da31cfffe153c3-startupops-ai"
-              className="btn-primary"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Diagnose My Startup →
-            </a>
-
-            
-
-          <p className="micro-proof">
-  No signup. Just answers.
-</p>
-
-<div className="outcomes"> 
-  <p className="outcomes-title">What you'll walk away with:</p> 
-  <ul> <li>"You're targeting the wrong user"</li> 
-    <li>"Your problem isn't painful enough yet"</li> 
-    <li>"Your positioning is unclear"</li> 
-    <li>"You're solving a symptom, not the cause"</li> 
-  </ul> </div> <p className="urgency"> 
-    Every extra week = more time wasted on the wrong thing. </p>
-
-
-<p className= "urgency">
-Every extra week = more time wasted on the wrong thing.
-</p>
-
-
-
-
-            
-<p className= "tagline-soft"> Clarity before execution.</p>
-            
-        </div>
-      </section>
+      <section id="about" className="hero"> 
+        <div className="container center"> 
+          <p className="badge"> 70+ founders diagnosed • free to try </p> 
+          <h1> Most founders don't have an execution problem.<br /> They have a diagnosis problem. </h1> 
+          <p className="subtitle"> StartupOps AI shows you what's actually blocking growth, why nothing is working, and what to fix next. </p> 
+          <p className="subtitle-strong"> 2 minutes. One answer. One clear move. </p> 
+          <div className="hero-buttons"> 
+            <a href="https://chatgpt.com/g/g-69620ff898308191a9da31cfffe153c3-startupops-ai" 
+                                           className="btn-primary" 
+                                           target="_blank" 
+                                           rel="noopener noreferrer" > 
+            Find My Bottleneck → 
+          </a> 
+          </div> 
+          <p className="micro-proof"> 
+            No signup. Just answers. </p> 
+          
+          {/* 🔥 Conversion booster */} 
+          <div className="outcomes"> 
+            <p className="outcomes-title">What you'll walk away with:</p> 
+            <ul> <li>"You're targeting the wrong user"</li> 
+              <li>"Your problem isn't painful enough yet"</li> 
+              <li>"Your positioning is unclear"</li> 
+              <li>"You're solving a symptom, not the cause"</li> 
+            </ul> </div> <p className="urgency"> Every extra week = more time wasted on the wrong thing. </p> 
+          <p className="tagline-soft"> Clarity before execution. </p> 
+        </div> </section>
 
 
       
