@@ -50,7 +50,7 @@ export default function Home() {
 
 <p className= "urgency">
 Every extra week = more time wasted on the wrong thing.
-</>
+</p>
 
 
 
