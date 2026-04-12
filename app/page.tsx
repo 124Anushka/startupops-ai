@@ -7,7 +7,9 @@ export default function Home() {
         <div className="container center"> 
           <p className="badge"> 70+ founders diagnosed • free to try </p> 
           <h1> Most founders don't have an execution problem.<br /> They have a diagnosis problem. </h1> 
+          
           <p className="subtitle"> StartupOps AI diagnosis what's actually blocking your startup, and tell you exactly what to fix next. </p> 
+          
           <p className="subtitle-strong"> 2 minutes. One answer. One clear move. </p> 
           <div className="hero-buttons"> 
             <a href="https://chatgpt.com/g/g-69620ff898308191a9da31cfffe153c3-startupops-ai" 
