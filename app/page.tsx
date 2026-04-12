@@ -7,7 +7,7 @@ export default function Home() {
         <div className="container center"> 
           <p className="badge"> 70+ founders diagnosed • free to try </p> 
           <h1> Most founders don't have an execution problem.<br /> They have a diagnosis problem. </h1> 
-          <p className="subtitle"> StartupOps AI shows you what's actually blocking growth, why nothing is working, and what to fix next. </p> 
+          <p className="subtitle"> StartupOps AI diagnosis what's actually blocking your startup, and tell you exactly what to fix next. </p> 
           <p className="subtitle-strong"> 2 minutes. One answer. One clear move. </p> 
           <div className="hero-buttons"> 
             <a href="https://chatgpt.com/g/g-69620ff898308191a9da31cfffe153c3-startupops-ai" 
@@ -23,11 +23,14 @@ export default function Home() {
           {/* 🔥 Conversion booster */} 
           <div className="outcomes"> 
             <p className="outcomes-title">What you'll walk away with:</p> 
-            <ul> <li>"You're targeting the wrong user"</li> 
-              <li>"Your problem isn't painful enough yet"</li> 
-              <li>"Your positioning is unclear"</li> 
-              <li>"You're solving a symptom, not the cause"</li> 
-            </ul> </div> <p className="urgency"> Every extra week = more time wasted on the wrong thing. </p> 
+            <ul> <li>"You're solving for users don't care enough to switch"</li> 
+              <li>"Users don't feel this problem strongly enough to act"</li> 
+              <li>"Your positioning is unclear, so nothing sticks"</li> 
+              <li>"You're solving symptoms, not the real constraint"</li> 
+            </ul> </div> 
+          
+          <p className="urgency"> Every extra week you spend on the wrong problem = time your competitors spend on the right one. </p> 
+          
           <p className="tagline-soft"> Clarity before execution. </p> 
         </div> </section>
 
@@ -36,37 +39,36 @@ export default function Home() {
 <section className="section">
   <div className="container center">
     <p className="proof-line">
-      Used by early-stage founders to identify their real bottleneck before scaling.
+      70+ founders diagnosed across product, growth, and positioning.
     </p>
   </div>
 </section>
 
 
 
-      {/* TRUST / PROOF */}
+     {/* 🔥 PROOF (NEW — CRITICAL) */}
 <section className="section">
   <div className="container center">
 
+    <p className="proof-title">What a real diagnosis looks like:</p>
 
-    <div className="proof-grid">
-      <div className="proof-card">
-        <h3>Clarity</h3>
-        <p>Identify the real constraint before you act</p>
-      </div>
+    <div className="proof-box">
+      <p className="proof-text">
+        “Your problem isn’t growth — it’s weak problem urgency.
+        Users understand your product, but don’t feel enough pain to switch.”
+      </p>
 
-      <div className="proof-card">
-        <h3>Focus</h3>
-        <p>Prioritize high-leverage decisions, not noise</p>
-      </div>
-
-      <div className="proof-card">
-        <h3>Execution</h3>
-        <p>Move with confidence based on clear signals</p>
-      </div>
+      <p className="proof-fix">
+        → Fix: Focus on users actively experiencing this weekly  
+        <br />
+        → Stop: Adding features before demand is real
+      </p>
     </div>
 
   </div>
 </section>
+
+
       
 <p className="built-line">
   Built using real startup patterns across product, growth, retention & monetization
@@ -259,7 +261,7 @@ export default function Home() {
 
       <div className="pricing-card">
         <h3>Free</h3>
-        <div className="price">₹0 <span>/ month</span></div>
+        <div className="price">Free <span>/ month</span></div>
 
         <p className="plan-tag">
           Experience the thinking system
