@@ -215,11 +215,19 @@ p {
 
 .hero {
   text-align: center;
-  padding: 120px 20px;
-  background: radial-gradient(circle at top, #f9fafb, #ffffff);
+  padding: 80px 20px;
+  background: radial-gradient(circle at top, #f7f7f7, #ffffff);
 }
 .hero h1 {
   font-weight: 700;
+  margin-bottom: 16px;
+}
+.subtitle {
+  margin-bottom: 12px;
+}
+
+.subtitle-strong {
+  margin-bottom: 20px;
 }
 .tagline {
   font-size: 17px;
@@ -260,7 +268,7 @@ p {
 .outcomes {
   margin-top: 30px;
   text-align: left;
-  max-width: 520px;
+  max-width: 500px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -276,15 +284,19 @@ p {
 }
 
 .outcomes li {
+  list-style: none;
+  background: #f6f6f6;
+  padding: 10px 14px;
+  border-radius: 8px;
   margin-bottom: 8px;
-  color: #374151;
+  color: #444;
   font-size: 15px;
 }
 
 .urgency {
-  margin-top: 20px;
-  font-size: 14px;
-  color: #9ca3af;
+  margin-top: 16px;
+  font-size: 500;
+  color: #111;
   text-align: center;
 }
 
