@@ -144,11 +144,7 @@ p {
   color: #888;
 }
 
-.micro-proof {
-  margin-top: 20px;
-  font-size: 14px;
-  color: #777;
-}
+
 
 .built-line {
   text-align: center;
@@ -241,7 +237,7 @@ p {
 }
 
 .hero-buttons {
-  margin-top: 30px;
+  margin-top: 24px;
   display: flex;
   justify-content: center;
   gap: 16px;
@@ -261,7 +257,8 @@ p {
 .micro-proof {
  font-size: 0.85rem; 
  color: #777;
- margin-top: 8px;
+ margin-top: 12px;
+ margin-bottom: 32px;
 }
 
 
@@ -301,7 +298,7 @@ p {
   line-height: 1.5;
 }
 .outcomes {
-  margin-top: 28px;
+  margin-top: 40px;
   text-align: left;
   max-width: 640px;
   margin-left: auto;
@@ -322,21 +319,28 @@ p {
 .outcomes li {
   list-style: none;
   background: #f7f7f7;
-  padding: 12px 14px;
+  padding: 14px 16px;
   border-radius: 8px;
-  margin-bottom: 10px;
+  margin-bottom: 14px;
   color: #222;
   font-size: 0.95rem;
+  line-height: 1.6;
 }
 
 .urgency {
-  margin-top: 16px;
+  margin-top: 20px;
   font-size: 0.95rem;
   color: #b00020;
   text-align: center;
   font-weight: 500;
+  margin-bottom: 10px;
 }
 
+.tagline-soft {
+ margin-top: 12px;
+ font-size: 0.9rem;
+ color: #666; 
+}
 
 /* ========================= */
 /* DIAGNOSIS CARD */
