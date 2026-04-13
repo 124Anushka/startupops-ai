@@ -13,47 +13,61 @@
           
           <p className="subtitle-strong"> 2 minutes. One answer. One clear move. </p> 
           <div className="hero-buttons"> 
-            <div className="email-capture">
+
+        <div className="lead-card">
+
+  <h2 className="lead-title">
+    Find what's actually blocking you
+  </h2>
+
+  <p className="lead-sub">
+    Free diagnosis · 2 minutes · No fluff — just your #1 bottleneck + one clear next action
+  </p>
+
+  <input
+    type="text"
+    placeholder="Your first name"
+    className="lead-input"
+    id="nameInput"
+  />
+
   <input
     type="email"
     placeholder="your@email.com"
-    className="email-input"
+    className="lead-input"
     id="emailInput"
   />
 
- 
-<button
-  className="btn-primary"
-  onClick={() => {
-    const input = document.getElementById("emailInput") as HTMLInputElement;
+  <button
+    className="lead-button"
+    onClick={() => {
+      const email = (document.getElementById("emailInput") as HTMLInputElement).value;
+      const name = (document.getElementById("nameInput") as HTMLInputElement).value;
 
-    if (!input) {
-      alert("Something went wrong");
-      return;
-    }
+      if (!email || !email.includes("@")) {
+        alert("Enter a valid email");
+        return;
+      }
 
-    const email = input.value;
+      fetch("https://script.google.com/macros/s/AKfycbzPIGHQjAl9GuC9KYmyxsYaQdvJbOEPv59U1-8vjsIPCOH4gAt2oWb5Zn8ahXSE_o5JWA/exec", {
+        method: "POST",
+        body: JSON.stringify({ email, name }),
+      });
 
-    if (!email || !email.includes("@")) {
-      alert("Enter a valid email");
-      return;
-    }
+      window.location.href =
+        "https://chatgpt.com/g/g-69620ff898308191a9da31cfffe153c3-startupops-ai";
+    }}
+  >
+    Get My Free Diagnosis →
+  </button>
 
-    fetch("https://script.google.com/macros/s/AKfycbzPIGHQjAl9GuC9KYmyxsYaQdvJbOEPv59U1-8vjsIPCOH4gAt2oWb5Zn8ahXSE_o5JWA/exec", { 
-      method: "POST", 
-      body: JSON.stringify({ email }), 
-    }); 
-    window.location.href =
-      "https://chatgpt.com/g/g-69620ff898308191a9da31cfffe153c3-startupops-ai";
-  }}
->
-  Get My Diagnosis →
-</button>
-
-  <p className="micro-note">
-    Get your result + optional deeper insights
+  <p className="lead-proof">
+    Used by SaaS, B2B & solo founders · No spam, ever
   </p>
+
 </div>
+
+
 
 
           </div> 
