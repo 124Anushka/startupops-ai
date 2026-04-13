@@ -672,18 +672,6 @@ p {
 
 
 
-.email-input {
-  width: 300px;
-  max-width: 90%;
-  padding: 12px;
-  border-radius: 8px;
-  border: 1px solid #ccc;
-}
-
-.btn-primary {
-  width: 300px;
-  max-width: 90%;
-}
 
 
 /* 🔥 FIX: FORCE CENTER CTA */
@@ -708,6 +696,10 @@ p {
   margin-right: auto;
 }
 
+.cta-box .email-input,
+.cta-box .btn-primary {
+  width: 100%;
+}
 
 
 .cta-section h2 {
