@@ -12,12 +12,43 @@ export default function Home() {
           
           <p className="subtitle-strong"> 2 minutes. One answer. One clear move. </p> 
           <div className="hero-buttons"> 
-            <a href="https://chatgpt.com/g/g-69620ff898308191a9da31cfffe153c3-startupops-ai" 
-                                           className="btn-primary" 
-                                           target="_blank" 
-                                           rel="noopener noreferrer" > 
-            Find My Bottleneck → 
-          </a> 
+            <div className="email-capture">
+  <input
+    type="email"
+    placeholder="your@email.com"
+    className="email-input"
+    id="emailInput"
+  />
+
+  <button
+    className="btn-primary"
+    onClick={() => {
+      const email = document.getElementById("emailInput").value;
+
+      if (!email || !email.includes("@")) {
+        alert("Please enter a valid email");
+        return;
+      }
+
+      // TEMP: store email
+      localStorage.setItem("user_email", email);
+
+      // redirect
+      window.open(
+        "https://chatgpt.com/g/g-69620ff898308191a9da31cfffe153c3-startupops-ai",
+        "_blank"
+      );
+    }}
+  >
+    Get My Diagnosis →
+  </button>
+
+  <p className="micro-note">
+    Get your result + optional deeper insights
+  </p>
+</div>
+
+
           </div> 
           <p className="micro-proof"> 
             No signup. Just answers. </p> 
