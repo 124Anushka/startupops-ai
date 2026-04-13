@@ -24,7 +24,7 @@
  
 <button
   className="btn-primary"
-  onClick={async () => {
+  onClick={() => {
     const input = document.getElementById("emailInput") as HTMLInputElement;
 
     if (!input) {
@@ -39,7 +39,7 @@
       return;
     }
 
-    await fetch("https://script.google.com/macros/s/AKfycbzPIGHQjAl9GuC9KYmyxsYaQdvJbOEPv59U1-8vjsIPCOH4gAt2oWb5Zn8ahXSE_o5JWA/exec", { 
+    fetch("https://script.google.com/macros/s/AKfycbzPIGHQjAl9GuC9KYmyxsYaQdvJbOEPv59U1-8vjsIPCOH4gAt2oWb5Zn8ahXSE_o5JWA/exec", { 
       method: "POST", 
       body: JSON.stringify({ email }), 
     }); 
@@ -394,7 +394,7 @@
 
       <button
   className="btn-primary"
-  onClick={async () => {
+  onClick={() => {
     const input = document.getElementById("emailInput2") as HTMLInputElement;
 
     if (!input) {
@@ -409,7 +409,7 @@
       return;
     }
 
-    await fetch("https://script.google.com/macros/s/AKfycbzPIGHQjAl9GuC9KYmyxsYaQdvJbOEPv59U1-8vjsIPCOH4gAt2oWb5Zn8ahXSE_o5JWA/exec", {
+    fetch("https://script.google.com/macros/s/AKfycbzPIGHQjAl9GuC9KYmyxsYaQdvJbOEPv59U1-8vjsIPCOH4gAt2oWb5Zn8ahXSE_o5JWA/exec", {
   method: "POST",
   body: JSON.stringify({ email }),
 });
