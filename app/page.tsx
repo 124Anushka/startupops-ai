@@ -412,28 +412,34 @@
       <button
   className="btn-primary"
   onClick={() => {
-    const input = document.getElementById("emailInput2") as HTMLInputElement;
+  const input = document.getElementById("emailInput2") as HTMLInputElement;
 
-    if (!input) {
-      alert("Something went wrong");
-      return;
-    }
+  if (!input) {
+    alert("Something went wrong");
+    return;
+  }
 
-    const email = input.value;
+  const email = input.value;
 
-    if (!email || !email.includes("@")) {
-      alert("Enter a valid email");
-      return;
-    }
+  if (!email || !email.includes("@")) {
+    alert("Enter a valid email");
+    return;
+  }
 
-    fetch("https://script.google.com/macros/s/AKfycbzPIGHQjAl9GuC9KYmyxsYaQdvJbOEPv59U1-8vjsIPCOH4gAt2oWb5Zn8ahXSE_o5JWA/exec", {
-  method: "POST",
-  body: JSON.stringify({ email }),
-});
+  fetch("https://script.google.com/macros/s/AKfycbzPIGHQjAl9GuC9KYmyxsYaQdvJbOEPv59U1-8vjsIPCOH4gAt2oWb5Zn8ahXSE_o5JWA/exec", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({ email, name: "" }),
+  })
+  .then(() => {
+    window.location.href =
+      "https://chatgpt.com/g/g-69620ff898308191a9da31cfffe153c3-startupops-ai";
+  });
+}}
 
-window.location.href =
-  "https://chatgpt.com/g/g-69620ff898308191a9da31cfffe153c3-startupops-ai";
-  }}
+
 >
   Diagnose My Startup →
 </button>
