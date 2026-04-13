@@ -666,15 +666,11 @@ p {
   text-align: center;
   padding-left: 20px;
   padding-right: 20px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
-.cta-box {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* 🔥 THIS centers input + button */
-  gap: 12px;
-  margin-top: 20px;
-}
+
 
 .email-input {
   width: 300px;
@@ -702,11 +698,12 @@ p {
 
 .cta-box {
   width: 100%;
-  max-width: 400px;
+  max-width: 420px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 12px;
+  margin: 0 auto;
   margin-left: auto;
   margin-right: auto;
 }
@@ -714,6 +711,12 @@ p {
 .cta-box .email-input,
 .cta-box .btn-primary {
   width: 100%;
+}
+
+.cta-section h2 {
+  mmax-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
