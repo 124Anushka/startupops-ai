@@ -24,7 +24,7 @@
  
 <button
   className="btn-primary"
-  onClick={() => {
+  onClick={async () => {
     const input = document.getElementById("emailInput") as HTMLInputElement;
 
     if (!input) {
@@ -39,12 +39,13 @@
       return;
     }
 
-    localStorage.setItem("user_email", email);
-
-    window.open(
-      "https://chatgpt.com/g/g-69620ff898308191a9da31cfffe153c3-startupops-ai",
-      "_blank"
-    );
+    await fetch("https://script.google.com/macros/s/AKfycbzPIGHQjAl9GuC9KYmyxsYaQdvJbOEPv59U1-8vjsIPCOH4gAt2oWb5Zn8ahXSE_o5JWA/exec", { 
+      method: "POST", 
+      body: JSON.stringify({ email }), 
+    }); 
+    window.open( 
+      "https://chatgpt.com/g/g-69620ff898308191a9da31cfffe153c3-startupops-ai", 
+      "_blank" );
   }}
 >
   Get My Diagnosis →
@@ -394,7 +395,7 @@
 
       <button
   className="btn-primary"
-  onClick={() => {
+  onClick={async () => {
     const input = document.getElementById("emailInput2") as HTMLInputElement;
 
     if (!input) {
@@ -409,12 +410,17 @@
       return;
     }
 
-    localStorage.setItem("user_email", email);
+    await fetch("https://script.google.com/macros/s/AKfycbzPIGHQjAl9GuC9KYmyxsYaQdvJbOEPv59U1-8vjsIPCOH4gAt2oWb5Zn8ahXSE_o5JWA/exec", {
+  method: "POST",
+  body: JSON.stringify({ email }),
+});
 
-    window.open(
-      "https://chatgpt.com/g/g-69620ff898308191a9da31cfffe153c3-startupops-ai",
-      "_blank"
-    );
+window.open(
+  "https://chatgpt.com/g/g-69620ff898308191a9da31cfffe153c3-startupops-ai",
+  "_blank"
+);
+
+
   }}
 >
   Diagnose My Startup →
