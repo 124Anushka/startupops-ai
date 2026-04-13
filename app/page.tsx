@@ -43,9 +43,8 @@
       method: "POST", 
       body: JSON.stringify({ email }), 
     }); 
-    window.open( 
-      "https://chatgpt.com/g/g-69620ff898308191a9da31cfffe153c3-startupops-ai", 
-      "_blank" );
+    window.location.href =
+      "https://chatgpt.com/g/g-69620ff898308191a9da31cfffe153c3-startupops-ai";
   }}
 >
   Get My Diagnosis →
@@ -415,9 +414,8 @@
   body: JSON.stringify({ email }),
 });
 
-window.open(
-  "https://chatgpt.com/g/g-69620ff898308191a9da31cfffe153c3-startupops-ai",
-  "_blank"
+window.location.href =
+  "https://chatgpt.com/g/g-69620ff898308191a9da31cfffe153c3-startupops-ai";
 );
 
 
