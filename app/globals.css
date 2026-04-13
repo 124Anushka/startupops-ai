@@ -664,6 +664,8 @@ p {
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .cta-box {
@@ -695,6 +697,7 @@ p {
   align-items: center;
   justify-content: center;
   text-align: center;
+  max-width: 500px;
 }
 
 .cta-box {
@@ -704,6 +707,8 @@ p {
   flex-direction: column;
   align-items: center;
   gap: 12px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .cta-box .email-input,
