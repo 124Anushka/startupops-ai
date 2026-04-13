@@ -376,23 +376,48 @@
 
       {/* CTA */}
       <section className="cta-section section">
-        <div className="container">
-          <div className="cta-container">
+  <div className="container center">
 
-            <h2>Stop guessing. Start executing with clarity.</h2>
+    <h2>Still guessing what's wrong?</h2>
 
-            <a
-              href="https://chatgpt.com/g/g-69620ff898308191a9da31cfffe153c3-startupops-ai"
-              className="cta-button"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Diagnose Your Startup in 2 Minutes
-            </a>
+    <p className="cta-sub">
+      Get your bottleneck in 2 minutes.
+    </p>
 
-          </div>
-        </div>
-      </section>
+    <div className="email-capture">
+      <input
+        type="email"
+        placeholder="your@email.com"
+        className="email-input"
+        id="emailInput2"
+      />
+
+      <button
+        className="btn-primary"
+        onClick={() => {
+          const email = document.getElementById("emailInput2").value;
+
+          if (!email || !email.includes("@")) {
+            alert("Enter a valid email");
+            return;
+          }
+
+          localStorage.setItem("user_email", email);
+
+          window.open(
+            "https://chatgpt.com/g/g-69620ff898308191a9da31cfffe153c3-startupops-ai",
+            "_blank"
+          );
+        }}
+      >
+        Diagnose My Startup →
+      </button>
+    </div>
+
+  </div>
+</section>
+
+
 
       {/* CONTACT */}
       <section className="section center">
