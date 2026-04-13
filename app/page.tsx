@@ -416,9 +416,6 @@
 
 window.location.href =
   "https://chatgpt.com/g/g-69620ff898308191a9da31cfffe153c3-startupops-ai";
-);
-
-
   }}
 >
   Diagnose My Startup →
