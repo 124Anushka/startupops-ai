@@ -693,7 +693,7 @@ p {
   align-items: center;
   justify-content: center;
   text-align: center;
-  max-width: 500px;
+  max-width: 420px;
 }
 
 .cta-box {
@@ -708,17 +708,17 @@ p {
   margin-right: auto;
 }
 
-.cta-box .email-input,
-.cta-box .btn-primary {
-  width: 100%;
-}
+
 
 .cta-section h2 {
-  mmax-width: 600px;
+  max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 10px;
 }
-
+.cta-section p{
+  margin-bottom:  20px;
+}
 
 .footer {
   padding: 80px 20px;
