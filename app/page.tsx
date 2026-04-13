@@ -51,6 +51,9 @@
 
       fetch("https://script.google.com/macros/s/AKfycbzPIGHQjAl9GuC9KYmyxsYaQdvJbOEPv59U1-8vjsIPCOH4gAt2oWb5Zn8ahXSE_o5JWA/exec", {
         method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
         body: JSON.stringify({ email, name }),
       });
 
