@@ -2,7 +2,7 @@
 export default function Home() {
 
   // 🔥 ADD THIS FUNCTION HERE
-  const handleSubmit = async (email, name = "") => {
+  const handleSubmit = async (email: string, name: string = "") => {
     if (!email || !email.includes("@")) {
       alert("Enter a valid email");
       return;
