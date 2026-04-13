@@ -1,5 +1,30 @@
 "use client"; 
   export default function Home() {
+    "use client";
+export default function Home() {
+
+  // 🔥 ADD THIS FUNCTION HERE
+  const handleSubmit = async (email, name = "") => {
+    if (!email || !email.includes("@")) {
+      alert("Enter a valid email");
+      return;
+    }
+
+    try {
+      await fetch("https://script.google.com/macros/s/AKfycbzPIGHQjAl9GuC9KYmyxsYaQdvJbOEPv59U1-8vjsIPCOH4gAt2oWb5Zn8ahXSE_o5JWA/exec", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ email, name }),
+      });
+    } catch (err) {
+      console.log(err);
+    }
+
+    window.location.href =
+      "https://chatgpt.com/g/g-69620ff898308191a9da31cfffe153c3-startupops-ai";
+  };
   return (
     <main>
 
@@ -41,25 +66,14 @@
   <button
     className="lead-button"
     onClick={() => {
-      const email = (document.getElementById("emailInput") as HTMLInputElement).value;
-      const name = (document.getElementById("nameInput") as HTMLInputElement).value;
+  const email = (document.getElementById("emailInput") as HTMLInputElement).value;
+  const name = (document.getElementById("nameInput") as HTMLInputElement).value;
 
-      if (!email || !email.includes("@")) {
-        alert("Enter a valid email");
-        return;
-      }
+  handleSubmit(email, name);
+}}
 
-      fetch("https://script.google.com/macros/s/AKfycbzPIGHQjAl9GuC9KYmyxsYaQdvJbOEPv59U1-8vjsIPCOH4gAt2oWb5Zn8ahXSE_o5JWA/exec", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ email, name }),
-      });
 
-      window.location.href =
-        "https://chatgpt.com/g/g-69620ff898308191a9da31cfffe153c3-startupops-ai";
-    }}
+
   >
     Get My Free Diagnosis →
   </button>
@@ -412,32 +426,12 @@
       <button
   className="btn-primary"
   onClick={() => {
-  const input = document.getElementById("emailInput2") as HTMLInputElement;
+  const email = (document.getElementById("emailInput2") as HTMLInputElement).value;
 
-  if (!input) {
-    alert("Something went wrong");
-    return;
-  }
-
-  const email = input.value;
-
-  if (!email || !email.includes("@")) {
-    alert("Enter a valid email");
-    return;
-  }
-
-  fetch("https://script.google.com/macros/s/AKfycbzPIGHQjAl9GuC9KYmyxsYaQdvJbOEPv59U1-8vjsIPCOH4gAt2oWb5Zn8ahXSE_o5JWA/exec", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({ email, name: "" }),
-  })
-  .then(() => {
-    window.location.href =
-      "https://chatgpt.com/g/g-69620ff898308191a9da31cfffe153c3-startupops-ai";
-  });
+  handleSubmit(email);
 }}
+
+
 
 
 >
