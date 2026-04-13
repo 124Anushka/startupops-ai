@@ -393,25 +393,34 @@
       />
 
       <button
-        className="btn-primary"
-        onClick={() => {
-          const email = document.getElementById("emailInput2").value;
+  className="btn-primary"
+  onClick={() => {
+    const input = document.getElementById("emailInput2") as HTMLInputElement;
 
-          if (!email || !email.includes("@")) {
-            alert("Enter a valid email");
-            return;
-          }
+    if (!input) {
+      alert("Something went wrong");
+      return;
+    }
 
-          localStorage.setItem("user_email", email);
+    const email = input.value;
 
-          window.open(
-            "https://chatgpt.com/g/g-69620ff898308191a9da31cfffe153c3-startupops-ai",
-            "_blank"
-          );
-        }}
-      >
-        Diagnose My Startup →
-      </button>
+    if (!email || !email.includes("@")) {
+      alert("Enter a valid email");
+      return;
+    }
+
+    localStorage.setItem("user_email", email);
+
+    window.open(
+      "https://chatgpt.com/g/g-69620ff898308191a9da31cfffe153c3-startupops-ai",
+      "_blank"
+    );
+  }}
+>
+  Diagnose My Startup →
+</button>
+
+
     </div>
 
   </div>
