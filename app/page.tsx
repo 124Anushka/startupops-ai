@@ -20,28 +20,34 @@ export default function Home() {
     id="emailInput"
   />
 
-  <button
-    className="btn-primary"
-    onClick={() => {
-      const email = document.getElementById("emailInput").value;
+ 
+<button
+  className="btn-primary"
+  onClick={() => {
+    const input = document.getElementById("emailInput") as HTMLInputElement;
 
-      if (!email || !email.includes("@")) {
-        alert("Please enter a valid email");
-        return;
-      }
+    if (!input) {
+      alert("Something went wrong");
+      return;
+    }
 
-      // TEMP: store email
-      localStorage.setItem("user_email", email);
+    const email = input.value;
 
-      // redirect
-      window.open(
-        "https://chatgpt.com/g/g-69620ff898308191a9da31cfffe153c3-startupops-ai",
-        "_blank"
-      );
-    }}
-  >
-    Get My Diagnosis →
-  </button>
+    if (!email || !email.includes("@")) {
+      alert("Please enter a valid email");
+      return;
+    }
+
+    localStorage.setItem("user_email", email);
+
+    window.open(
+      "https://chatgpt.com/g/g-69620ff898308191a9da31cfffe153c3-startupops-ai",
+      "_blank"
+    );
+  }}
+>
+  Get My Diagnosis →
+</button>
 
   <p className="micro-note">
     Get your result + optional deeper insights
