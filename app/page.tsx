@@ -35,7 +35,7 @@
     const email = input.value;
 
     if (!email || !email.includes("@")) {
-      alert("Please enter a valid email");
+      alert("Enter a valid email");
       return;
     }
 
