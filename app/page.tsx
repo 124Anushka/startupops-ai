@@ -87,7 +87,7 @@ export default function Home() {
             No signup. Just answers. </p> 
 
 
-          /* STATS SECTION */
+
 <div className= "stats">
   <div className="stat">
     <h3>70+</h3>
@@ -105,7 +105,7 @@ export default function Home() {
   </div>
 </div>
 
-/* TRUST LINE */
+
 <p className ="trust-line">
   Used by SaaS founders, B2B operators, and solo builders at the idea-to-traction stage
 </p>
