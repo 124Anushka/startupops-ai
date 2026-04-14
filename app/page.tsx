@@ -87,7 +87,7 @@ export default function Home() {
             No signup. Just answers. </p> 
 
 
-<!-- STATS SECTION -->
+          /* STATS SECTION */
 <div class="stats">
   <div class="stat">
     <h3>70+</h3>
