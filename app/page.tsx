@@ -111,6 +111,32 @@ export default function Home() {
 </p>
 
 
+<div className ="testimonials">
+
+  <div className ="testimonial">
+    <p>
+      "Realized my 'growth problem' was actually a positioning problem. Saved me months of wrong marketing."
+    </p>
+    <span>— SaaS founder, pre-seed</span>
+  </div>
+
+  <div className ="testimonial">
+    <p>
+      "I thought I needed to hire. Turns out I was doing work that shouldn't exist yet. Complete mindset shift."
+    </p>
+    <span>— Solo operator, B2B</span>
+  </div>
+
+  <div className ="testimonial">
+    <p>
+      "First tool that didn’t just tell me to 'talk to users' — it told me which users and exactly what to ask."
+    </p>
+    <span>— Product lead, early-stage startup</span>
+  </div>
+
+</div>
+
+
 
 
 
