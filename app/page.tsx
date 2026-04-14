@@ -280,7 +280,6 @@ export default function Home() {
 
       <div className="compare-header">
         <div>Capability</div>
-        <div className="highlight">StartupOps AI</div>
         <div>Generic AI</div>
       </div>
 
