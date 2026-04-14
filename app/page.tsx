@@ -197,80 +197,65 @@ export default function Home() {
 </p>
 
       {/* HOW IT WORKS */}
-      <section id= "how-it-works" className="how-section section">
-        <div className="container">
+      <section className="how">
 
-          <h2 className="section-title">How it works</h2>
+  <p className="how-label">— HOW IT WORKS</p>
 
-          {/* 01 */}
-          <div className="how-block">
-            <span className="how-number">01</span>
-            <h3>Diagnose Before You Execute</h3>
+  <h2 className="how-title">
+    Diagnose first.<br />
+    <span>Then execute.</span>
+  </h2>
 
-            <div className="how-grid">
-              <div>
-                <span className="label">DIAGNOSIS</span>
-                <p>
-                  Most teams execute fast but think shallow. They react to visible problems,
-                  not underlying constraints - which leads to wasted effort.
-                </p>
-              </div>
+  <div className="steps">
 
-              <div>
-                <span className="label">BENEFIT</span>
-                <p>
-                  StartupOps AI identifies the real constraint first, so every action targets what actually moves outcomes.
-                </p>
-              </div>
-            </div>
-          </div>
+    
+    <div className="step">
+      <div className="step-number">01</div>
 
-          {/* 02 */}
-          <div className="how-block">
-            <span className="how-number">02</span>
-            <h3>Decision Based on Reality</h3>
+      <p className="step-tag">INPUT — 60 SECONDS</p>
 
-            <div className="how-grid">
-              <div>
-                <span className="label">DIAGNOSIS</span>
-                <p>
-                  Most strategies assume ideal conditions. In reality, time, capital, and focus are limited.
-                </p>
-              </div>
+      <h3>Describe where you're stuck</h3>
 
-              <div>
-                <span className="label">BENEFIT</span>
-                <p>
-                  Every recommendation is grounded in your actual constraints — making decisions realistic and executable.
-                </p>
-              </div>
-            </div>
-          </div>
+      <p className="step-desc">
+        Tell it what you're building, where you're struggling, what you've already tried.
+        No long forms. Just your situation in plain language.
+      </p>
+    </div>
 
-          {/* 03 */}
-          <div className="how-block">
-            <span className="how-number">03</span>
-            <h3>Execution With Clarity</h3>
+    
+    <div className="step">
+      <div className="step-number">02</div>
 
-            <div className="how-grid">
-              <div>
-                <span className="label">DIAGNOSIS</span>
-                <p>
-                  Teams either act too early or delay too long. There’s no clear signal for when to move.
-                </p>
-              </div>
+      <p className="step-tag">DIAGNOSIS — INSTANT</p>
 
-              <div>
-                <span className="label">BENEFIT</span>
-                <p>
-                  StartupOps AI clarifies priorities and trade-offs so execution happens only when it creates leverage.
-                </p>
-              </div>
-            </div>
-          </div>
+      <h3>Get your real constraint identified</h3>
 
-        </div>
-      </section>
+      <p className="step-desc">
+        StartupOps AI analyzes your situation against real startup patterns —
+        finding the underlying problem, not just the symptom.
+      </p>
+    </div>
+
+    
+    <div className="step">
+      <div className="step-number">03</div>
+
+      <p className="step-tag">OUTPUT — ONE CLEAR MOVE</p>
+
+      <h3>Walk away knowing exactly what to fix</h3>
+
+      <p className="step-desc">
+        Your #1 bottleneck. One high-leverage next action.
+        One thing to stop doing immediately.
+        Not a long plan — just clarity.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+
 
 
       <p className="section-sub">
