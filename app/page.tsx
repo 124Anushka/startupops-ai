@@ -88,25 +88,25 @@ export default function Home() {
 
 
           /* STATS SECTION */
-<div class="stats">
-  <div class="stat">
+<div className= "stats">
+  <div className="stat">
     <h3>70+</h3>
     <p>Founders diagnosed</p>
   </div>
 
-  <div class="stat">
+  <div className= "stat">
     <h3>2 min</h3>
     <p>To your bottleneck</p>
   </div>
 
-  <div class="stat">
+  <div className ="stat">
     <h3>Free</h3>
     <p>To try right now</p>
   </div>
 </div>
 
 /* TRUST LINE */
-<p class="trust-line">
+<p className ="trust-line">
   Used by SaaS founders, B2B operators, and solo builders at the idea-to-traction stage
 </p>
 
