@@ -262,6 +262,73 @@ export default function Home() {
   Built for people making high-stakes decisions with limited clarity
 </p>
 
+
+<section className="compare-section section">
+  <div className="container">
+
+    <p className="how-label">— WHY NOT JUST USE CHATGPT?</p>
+
+    <h2 className="compare-title">
+      Generic AI gives <span>generic answers.</span>
+    </h2>
+
+    <p className="compare-sub">
+      StartupOps AI is built specifically around startup decision patterns - not general knowledge.
+    </p>
+
+    <div className="compare-table">
+
+      <div className="compare-header">
+        <div>Capability</div>
+        <div className="highlight">StartupOps AI</div>
+        <div>Generic AI</div>
+      </div>
+
+      <div className="compare-row">
+        <div>Identifies real bottleneck vs symptom</div>
+        <div className="yes">✓ Yes</div>
+        <div className="no">✕ No</div>
+      </div>
+
+      <div className="compare-row">
+        <div>Startup-specific diagnostic framework</div>
+        <div className="yes">✓ Yes</div>
+        <div className="no">✕ No</div>
+      </div>
+
+      <div className="compare-row">
+        <div>Accounts for constraints (time, capital)</div>
+        <div className="yes">✓ Yes</div>
+        <div className="no">✕ No</div>
+      </div>
+
+      <div className="compare-row">
+        <div>Tells you what to STOP doing</div>
+        <div className="yes">✓ Yes</div>
+        <div className="no">✕ Rarely</div>
+      </div>
+
+      <div className="compare-row">
+        <div>One clear next action</div>
+        <div className="yes">✓ Yes</div>
+        <div className="no">✕ No</div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+      
       {/* WHO IT’S FOR */}
       <section id="who-it's-for" className="who-section section">
         <div className="container">
