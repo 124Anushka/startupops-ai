@@ -105,7 +105,7 @@ export default function Home() {
   </div>
 </div>
 
-<!-- TRUST LINE -->
+/* TRUST LINE */
 <p class="trust-line">
   Used by SaaS founders, B2B operators, and solo builders at the idea-to-traction stage
 </p>
