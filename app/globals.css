@@ -431,48 +431,71 @@ p {
 /* HOW SECTION */
 /* ========================= */
 
-.how-container {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 80px;
+.how {
+  margin-top: 80px;
+  padding: 20px;
 }
 
-.how-left h2 {
-  margin-bottom: 20px;
+.how-label {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #888;
+  margin-bottom: 10px;
 }
 
-.how-left p {
-  color: #555;
+.how-title {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.2;
 }
 
-.line {
-  width: 60px;
-  height: 2px;
-  background: #111;
+.how-title span {
+  color: #888;
+  font-style: italic;
+}
+
+.steps {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.step {
+  background: #f6f4ef;
+  padding: 25px;
+  border-radius: 12px;
+  position: relative;
+}
+
+.step-number {
+  font-size: 40px;
+  color: rgba(0,0,0,0.08);
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  font-weight: 600;
+}
+
+.step-tag {
+  color: #2f855a;
+  font-size: 12px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
   margin-top: 20px;
 }
 
-.how-block {
-  margin-bottom: 60px;
+.step h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
 }
 
-.how-number {
-  font-size: 14px;
-  color: #aaa;
+.step-desc {
+  color: #666;
+  line-height: 1.6;
 }
 
-.how-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 30px;
-  margin-top: 10px;
-}
 
-.label {
-  font-size: 12px;
-  color: #999;
-  letter-spacing: 1px;
-}
 
 /* ========================= */
 /* WHO SECTION */
