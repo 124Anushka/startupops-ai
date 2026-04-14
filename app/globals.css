@@ -1252,7 +1252,6 @@ p {
 }
 
 .highlight {
-  background: #111;
   color: #b7ff3c;
   text-align: center;
   font-weight: 600;
@@ -1275,6 +1274,14 @@ p {
 
 .compare-section {
   margin-top: 120px;
+}
+
+.compare-header div:nth-child(2) {
+  font-weight: 600;
+  background: #111;
+  color: #b7ff3c;
+  text-align: center;
+  border-radius: 8px 8px 0 0;
 }
 
 /* ========================= */
