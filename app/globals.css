@@ -468,7 +468,7 @@ p {
 .step {
   background: #f8f7f4;
   padding: 56px 32px 32px 32px;
-  border-radius: 16px;
+  border-radius: 1px solid #f0f0f0;
   position: relative;
   transition: all 0.2s ease;
 }
