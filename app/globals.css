@@ -432,67 +432,80 @@ p {
 /* ========================= */
 
 .how {
-  margin-top: 80px;
-  padding: 20px;
+  margin-top: 120px;
+  padding: 0 20px;
+  max-width: 680px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .how-label {
-  font-size: 12px;
+  font-size: 11px;
   letter-spacing: 2px;
-  color: #888;
-  margin-bottom: 10px;
+  color: #999;
+  margin-bottom: 12px;
 }
 
 .how-title {
-  font-size: 36px;
-  font-weight: 600;
+  font-size: 40px;
+  font-weight: 500;
   line-height: 1.2;
+  letter-spacing: -0.5px;
 }
 
 .how-title span {
-  color: #888;
+  color: #aaa;
   font-style: italic;
 }
 
 .steps {
-  margin-top: 40px;
+  margin-top: 60px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 32px;
 }
 
 .step {
-  background: #f6f4ef;
-  padding: 25px;
-  border-radius: 12px;
+  background: #f8f7f4;
+  padding: 32px;
+  border-radius: 16px;
   position: relative;
+  transition: all 0.2s ease;
+}
+
+.step:hover {
+  transform: translateY(-2px);
 }
 
 .step-number {
-  font-size: 40px;
-  color: rgba(0,0,0,0.08);
+  font-size: 48px;
+  color: rgba(0,0,0,0.05);
   position: absolute;
-  top: 15px;
-  left: 20px;
+  top: 20px;
+  left: 24px;
   font-weight: 600;
 }
 
 .step-tag {
   color: #2f855a;
-  font-size: 12px;
-  letter-spacing: 1px;
-  margin-bottom: 10px;
-  margin-top: 20px;
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  margin-bottom: 14px;
+  margin-top: 24px;
+  font-weight: 500;
 }
 
 .step h3 {
   font-size: 22px;
+  font-weight: 500;
   margin-bottom: 10px;
+  letter-spacing: 500;
 }
 
 .step-desc {
   color: #666;
-  line-height: 1.6;
+  line-height: 1.7;
+  font-size: 15px;
 }
 
 
