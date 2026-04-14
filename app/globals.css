@@ -1233,11 +1233,22 @@ p {
   grid-template-columns: 2fr 1fr 1fr;
   padding: 18px;
   border-bottom: 1px solid #eee;
+  transition: all 0.2s ease;
 }
+
+.compare-row:hover {
+  background: #fafafa;
+}
+
+
 
 .compare-header {
   font-weight: 600;
   background: #fafafa;
+  color: #111;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px 8px 0 0;
 }
 
 .highlight {
@@ -1248,11 +1259,13 @@ p {
   padding: 12px 0;
   border-radius: 6px;
   letter-spacing: 0.5px;
+  display: flex;
 }
 
 .yes {
   color: #2f855a;
   font-weight: 500;
+  background: rgba(183, 255, 60, 0.08);
 }
 
 .no {
