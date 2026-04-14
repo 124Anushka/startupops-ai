@@ -1244,6 +1244,10 @@ p {
   background: #111;
   color: #b7ff3c;
   text-align: center;
+  font-weight: 600;
+  padding: 12px 0;
+  border-radius: 6px;
+  letter-spacing: 0.5px;
 }
 
 .yes {
